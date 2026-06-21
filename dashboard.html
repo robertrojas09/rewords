@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rewords — Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <style>
+    :root{
+      --bg:#0f1115; --glass:#161920; --glass2:#1b1f29;
+      --border:rgba(255,255,255,0.08); --border2:rgba(255,255,255,0.16);
+      --blue:#378ADD; --green:#5DCAA5; --orange:#EF9F27; --red:#E24B4A; --purple:#7F77DD;
+      --w:rgba(255,255,255,0.92); --w2:rgba(255,255,255,0.58); --w3:rgba(255,255,255,0.36);
+    }
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg);color:var(--w);min-height:100vh;padding:20px 16px 40px;}
+    .mesh{position:fixed;inset:0;z-index:0;pointer-events:none;background:var(--bg);}
+    .wrap{position:relative;z-index:1;max-width:480px;margin:0 auto;}
+
+    /* HEADER */
+    .header{display:flex;align-items:center;gap:12px;margin-bottom:24px;padding-bottom:16px;border-bottom:1px solid var(--border);}
+    .header img{width:40px;height:40px;border-radius:10px;object-fit:cover;}
+    .header-text .t1{font-size:18px;font-weight:700;letter-spacing:-.4px;}
+    .header-text .t2{font-size:11px;color:var(--w3);margin-top:2px;}
+    .refresh-btn{margin-left:auto;background:var(--glass);border:1px solid var(--border);border-radius:20px;padding:6px 14px;font-size:12px;color:var(--w2);cursor:pointer;font-family:inherit;}
+    .last-update{font-size:10px;color:var(--w3);text-align:center;margin-bottom:16px;}
+
+    /* KPI GRID */
+    .kpi-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px;}
+    .kpi-card{background:var(--glass);border:1px solid var(--border);border-radius:12px;padding:16px;}
+    .kpi-card.full{grid-column:1/-1;}
+    .kpi-top{font-size:10px;font-weight:600;letter-spacing:1px;color:var(--w3);text-transform:uppercase;margin-bottom:8px;}
+    .kpi-val{font-size:28px;font-weight:800;letter-spacing:-1px;line-height:1;}
+    .kpi-sub{font-size:11px;color:var(--w3);margin-top:4px;}
+
+    /* SECCIONES */
+    .section{background:var(--glass);border:1px solid var(--border);border-radius:12px;padding:16px;margin-bottom:12px;}
+    .section-title{font-size:11px;font-weight:700;letter-spacing:1px;color:var(--w3);text-transform:uppercase;margin-bottom:14px;}
+
+    /* RANKING */
+    .rank-item{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.05);}
+    .rank-item:last-child{border-bottom:none;}
+    .rank-num{width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;flex-shrink:0;}
+    .rank-name{flex:1;font-size:13px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+    .rank-amount{font-size:13px;font-weight:700;}
+    .rank-badge{font-size:9px;font-weight:700;padding:2px 7px;border-radius:5px;background:rgba(93,202,165,0.15);color:var(--green);border:1px solid rgba(93,202,165,0.25);margin-left:6px;white-space:nowrap;}
+    .rank-bar-wrap{width:100%;height:3px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:4px;}
+    .rank-bar-fill{height:3px;border-radius:2px;}
+
+    /* COMPRAS */
+    .compra-item{display:flex;align-items:center;justify-content:space-between;padding:9px 0;border-bottom:1px solid rgba(255,255,255,0.05);}
+    .compra-item:last-child{border-bottom:none;}
+    .compra-name{font-size:13px;font-weight:500;}
+    .compra-time{font-size:10px;color:var(--w3);margin-top:2px;}
+    .compra-monto{font-size:14px;font-weight:700;color:var(--green);}
+
+    /* LOADING */
+    .loading{text-align:center;padding:60px 20px;color:var(--w3);}
+    .loading .spin{font-size:32px;animation:spin 1s linear infinite;display:inline-block;margin-bottom:12px;}
+    @keyframes spin{to{transform:rotate(360deg)}}
+
+    /* ERROR */
+    .error{text-align:center;padding:40px 20px;color:var(--orange);}
+  </style>
+</head>
+<body>
+<div class="mesh"></div>
+<div class="wrap">
+
+  <div class="header">
+    <img src="https://res.cloudinary.com/dbwvbrl4w/image/upload/v1781124855/logo_olgedq.jpg" alt="Logo"/>
+    <div class="header-text">
+      <div class="t1">Rewords Dashboard</div>
+      <div class="t2">Panel del propietario</div>
+    </div>
+    <button class="refresh-btn" onclick="cargar()">↺ Actualizar</button>
+  </div>
+
+  <div class="last-update" id="last-update">Cargando...</div>
+  <div id="main"></div>
+
+</div>
+
+<script>
+const DATA_URL = "https://robertrojas09.github.io/rewords/dashboard.json";
+
+async function cargar(){
+  const main = document.getElementById('main');
+  main.innerHTML = '<div class="loading"><div class="spin">◌</div><div>Cargando datos...</div></div>';
+  document.getElementById('last-update').textContent = 'Actualizando...';
+
+  try{
+    const r = await fetch(DATA_URL + '?t=' + Date.now());
+    if(!r.ok) throw new Error('Sin datos');
+    const d = await r.json();
+    renderDashboard(d);
+    document.getElementById('last-update').textContent = 'Actualizado: ' + new Date(d.actualizado).toLocaleString('es-MX');
+  } catch(e){
+    main.innerHTML = '<div class="error">⚠ No hay datos disponibles aún.<br><br>Registra una compra en el programa para ver el dashboard.</div>';
+    document.getElementById('last-update').textContent = '';
+  }
+}
+
+function renderDashboard(d){
+  const main = document.getElementById('main');
+  const top = d.top || [];
+  const compras = d.compras_hoy || [];
+  const maxV = top[0]?.acumulado || 1;
+  const RC = ['#185FA5','#0F6E56','#854F0B'];
+  const BC = ['#378ADD','#5DCAA5','#EF9F27','rgba(255,255,255,0.3)','rgba(255,255,255,0.3)'];
+
+  main.innerHTML = `
+    <!-- KPI GRID -->
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-top">Vendido</div>
+        <div class="kpi-val">$${(d.total_mes||0).toLocaleString('es-MX',{maximumFractionDigits:0})}</div>
+        <div class="kpi-sub">este mes</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-top">Clientes</div>
+        <div class="kpi-val" style="color:var(--blue)">${d.total_clientes||0}</div>
+        <div class="kpi-sub">registrados</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-top">Con descuento</div>
+        <div class="kpi-val" style="color:var(--green)">${d.con_descuento||0}</div>
+        <div class="kpi-sub">activos</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-top">Compras hoy</div>
+        <div class="kpi-val" style="color:var(--orange)">${compras.length}</div>
+        <div class="kpi-sub">transacciones</div>
+      </div>
+    </div>
+
+    <!-- RANKING -->
+    <div class="section">
+      <div class="section-title">🏆 Top clientes del mes</div>
+      ${top.slice(0,10).map((r,i)=>`
+        <div class="rank-item">
+          <div class="rank-num" style="background:${i<3?RC[i]:'rgba(255,255,255,0.08)'}">${i+1}</div>
+          <div style="flex:1;min-width:0">
+            <div style="display:flex;align-items:center">
+              <div class="rank-name">${r.nombre}</div>
+              ${r.descuento>0?`<div class="rank-badge">${r.descuento}%</div>`:''}
+            </div>
+            <div class="rank-bar-wrap">
+              <div class="rank-bar-fill" style="width:${Math.min((r.acumulado||0)/maxV*100,100).toFixed(1)}%;background:${BC[Math.min(i,4)]}"></div>
+            </div>
+          </div>
+          <div class="rank-amount" style="margin-left:10px">$${(r.acumulado||0).toLocaleString('es-MX',{maximumFractionDigits:0})}</div>
+        </div>`).join('')}
+    </div>
+
+    <!-- COMPRAS HOY -->
+    <div class="section">
+      <div class="section-title">📋 Compras de hoy</div>
+      ${compras.length ? compras.slice(0,15).map(c=>`
+        <div class="compra-item">
+          <div>
+            <div class="compra-name">${c.nombre}</div>
+            <div class="compra-time">${c.hora}</div>
+          </div>
+          <div class="compra-monto">$${parseFloat(c.monto).toLocaleString('es-MX',{minimumFractionDigits:2})}</div>
+        </div>`).join('') 
+      : '<div style="text-align:center;padding:20px;color:var(--w3);font-size:13px">Sin compras hoy</div>'}
+    </div>`;
+}
+
+// Auto-refresh cada 2 minutos
+cargar();
+setInterval(cargar, 120000);
+</script>
+</body>
+</html>
