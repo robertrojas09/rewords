@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
-  <title>Rewords — ewe</title>
+  <title>Rewords — salome</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet"/>
   <style>
     :root{--bg:#0D1B2A;--card:#162436;--blue:#4A9EDB;--blue-lt:#7DBFE8;--white:#E8EDF2;--gray:#8BA3B8;}
@@ -55,12 +55,12 @@
     <div class="bday" id="bday">🎂 ¡Hoy es tu cumpleaños! Feliz día 🎉</div>
     <div class="coin-wrap">
       <div class="coin">
-        <div class="coin-face front"><img src="https://res.cloudinary.com/dpsocwpss/image/upload/v1784084994/venom_ldmtac.jpg" alt="ewe"/></div>
-        <div class="coin-face back"><img src="https://res.cloudinary.com/dpsocwpss/image/upload/v1784084994/venom_ldmtac.jpg" alt="ewe"/></div>
+        <div class="coin-face front"><img src="https://res.cloudinary.com/dbwvbrl4w/image/upload/v1781118632/a74ca20b-6f50-4183-924d-2aa7957eb626-Roberto_Carlos_Jua%CC%81rez_umwzhr.jpg" alt="salome"/></div>
+        <div class="coin-face back"><img src="https://res.cloudinary.com/dbwvbrl4w/image/upload/v1781118632/a74ca20b-6f50-4183-924d-2aa7957eb626-Roberto_Carlos_Jua%CC%81rez_umwzhr.jpg" alt="salome"/></div>
       </div>
     </div>
     <div class="body">
-      <div class="name">ewe</div>
+      <div class="name">salome</div>
       <div class="badge"><div class="dot"></div><span class="id">MIEMBRO · 039</span><div class="dot"></div></div>
       <div class="divider"></div>
       <div class="brand">
@@ -79,7 +79,7 @@
     const c=document.getElementById("p");
     for(let i=0;i<20;i++){const p=document.createElement("div");p.className="particle";p.style.left=Math.random()*100+"vw";p.style.animationDuration=(6+Math.random()*10)+"s";p.style.animationDelay=(Math.random()*8)+"s";p.style.width=p.style.height=(Math.random()>.5?2:3)+"px";c.appendChild(p);}
     const hoy=new Date();const dd=String(hoy.getDate()).padStart(2,"0");const mm=String(hoy.getMonth()+1).padStart(2,"0");
-    const cumple="23/09/1995";
+    const cumple="23/09/1996";
     if(cumple&&cumple.startsWith(dd+"/"+mm))document.getElementById("bday").style.display="block";
   </script>
 </body>
