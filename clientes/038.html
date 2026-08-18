@@ -17,6 +17,8 @@
     .card{position:relative;width:340px;background:var(--card);border-radius:24px;border:1px solid rgba(74,158,219,.2);box-shadow:0 0 60px rgba(74,158,219,.12),0 0 120px rgba(74,158,219,.06);overflow:hidden;animation:ci .8s cubic-bezier(.34,1.56,.64,1) both;}
     @keyframes ci{from{transform:scale(.85) translateY(30px);opacity:0}to{transform:scale(1) translateY(0);opacity:1}}
     .bday{background:linear-gradient(135deg,#FF9F0A,#FF453A);padding:10px;text-align:center;font-family:"Orbitron",monospace;font-size:11px;color:#fff;letter-spacing:1px;display:none;}
+    .promo{background:linear-gradient(135deg,var(--blue),var(--blue-lt));padding:10px;text-align:center;font-family:"Exo 2",sans-serif;font-weight:600;font-size:12px;color:#fff;letter-spacing:.5px;}
+    .promo:empty{display:none;padding:0;}
     .coin-wrap{position:relative;display:flex;justify-content:center;padding:32px 0 4px;perspective:900px;}
     .coin{width:140px;height:140px;position:relative;transform-style:preserve-3d;animation:spin-coin 4s linear infinite;}
     .coin-face{position:absolute;inset:0;border-radius:50%;overflow:hidden;border:3px solid var(--blue);
@@ -53,6 +55,7 @@
     <div class="corner bl"></div><div class="corner br"></div>
     <div class="scan"></div>
     <div class="bday" id="bday">🎂 ¡Hoy es tu cumpleaños! Feliz día 🎉</div>
+    <div class="promo">2x1 en cervezas todo agosto</div>
     <div class="coin-wrap">
       <div class="coin">
         <div class="coin-face front"><img src="https://res.cloudinary.com/dpsocwpss/image/upload/v1784084994/venom_ldmtac.jpg" alt="kkkk"/></div>
