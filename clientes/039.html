@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
-  <title>Rewords — salome</title>
+  <title>Rewords — ewe</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet"/>
   <style>
     :root{--bg:#0D1B2A;--card:#162436;--blue:#4A9EDB;--blue-lt:#7DBFE8;--white:#E8EDF2;--gray:#8BA3B8;}
@@ -17,6 +17,8 @@
     .card{position:relative;width:340px;background:var(--card);border-radius:24px;border:1px solid rgba(74,158,219,.2);box-shadow:0 0 60px rgba(74,158,219,.12),0 0 120px rgba(74,158,219,.06);overflow:hidden;animation:ci .8s cubic-bezier(.34,1.56,.64,1) both;}
     @keyframes ci{from{transform:scale(.85) translateY(30px);opacity:0}to{transform:scale(1) translateY(0);opacity:1}}
     .bday{background:linear-gradient(135deg,#FF9F0A,#FF453A);padding:10px;text-align:center;font-family:"Orbitron",monospace;font-size:11px;color:#fff;letter-spacing:1px;display:none;}
+    .promo{background:linear-gradient(135deg,var(--blue),var(--blue-lt));padding:10px;text-align:center;font-family:"Exo 2",sans-serif;font-weight:600;font-size:12px;color:#fff;letter-spacing:.5px;}
+    .promo:empty{display:none;padding:0;}
     .coin-wrap{position:relative;display:flex;justify-content:center;padding:32px 0 4px;perspective:900px;}
     .coin{width:140px;height:140px;position:relative;transform-style:preserve-3d;animation:spin-coin 4s linear infinite;}
     .coin-face{position:absolute;inset:0;border-radius:50%;overflow:hidden;border:3px solid var(--blue);
@@ -53,14 +55,15 @@
     <div class="corner bl"></div><div class="corner br"></div>
     <div class="scan"></div>
     <div class="bday" id="bday">🎂 ¡Hoy es tu cumpleaños! Feliz día 🎉</div>
+    <div class="promo">2x1 en cervezas todo agosto</div>
     <div class="coin-wrap">
       <div class="coin">
-        <div class="coin-face front"><img src="https://res.cloudinary.com/dbwvbrl4w/image/upload/v1781118632/a74ca20b-6f50-4183-924d-2aa7957eb626-Roberto_Carlos_Jua%CC%81rez_umwzhr.jpg" alt="salome"/></div>
-        <div class="coin-face back"><img src="https://res.cloudinary.com/dbwvbrl4w/image/upload/v1781118632/a74ca20b-6f50-4183-924d-2aa7957eb626-Roberto_Carlos_Jua%CC%81rez_umwzhr.jpg" alt="salome"/></div>
+        <div class="coin-face front"><img src="https://res.cloudinary.com/dpsocwpss/image/upload/v1784084994/venom_ldmtac.jpg" alt="ewe"/></div>
+        <div class="coin-face back"><img src="https://res.cloudinary.com/dpsocwpss/image/upload/v1784084994/venom_ldmtac.jpg" alt="ewe"/></div>
       </div>
     </div>
     <div class="body">
-      <div class="name">salome</div>
+      <div class="name">ewe</div>
       <div class="badge"><div class="dot"></div><span class="id">MIEMBRO · 039</span><div class="dot"></div></div>
       <div class="divider"></div>
       <div class="brand">
@@ -79,7 +82,7 @@
     const c=document.getElementById("p");
     for(let i=0;i<20;i++){const p=document.createElement("div");p.className="particle";p.style.left=Math.random()*100+"vw";p.style.animationDuration=(6+Math.random()*10)+"s";p.style.animationDelay=(Math.random()*8)+"s";p.style.width=p.style.height=(Math.random()>.5?2:3)+"px";c.appendChild(p);}
     const hoy=new Date();const dd=String(hoy.getDate()).padStart(2,"0");const mm=String(hoy.getMonth()+1).padStart(2,"0");
-    const cumple="23/09/1996";
+    const cumple="23/09/1995";
     if(cumple&&cumple.startsWith(dd+"/"+mm))document.getElementById("bday").style.display="block";
   </script>
 </body>
