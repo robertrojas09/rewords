@@ -1,176 +1,409 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Rewords — Dashboard</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
-  <style>
-    :root{
-      --bg:#0f1115; --glass:#161920; --glass2:#1b1f29;
-      --border:rgba(255,255,255,0.08); --border2:rgba(255,255,255,0.16);
-      --blue:#378ADD; --green:#5DCAA5; --orange:#EF9F27; --red:#E24B4A; --purple:#7F77DD;
-      --w:rgba(255,255,255,0.92); --w2:rgba(255,255,255,0.58); --w3:rgba(255,255,255,0.36);
-    }
-    *{margin:0;padding:0;box-sizing:border-box;}
-    body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg);color:var(--w);min-height:100vh;padding:20px 16px 40px;}
-    .mesh{position:fixed;inset:0;z-index:0;pointer-events:none;background:var(--bg);}
-    .wrap{position:relative;z-index:1;max-width:480px;margin:0 auto;}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rewords — Tablero del negocio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{
+  --bg:#0B0E13; --card:#141922; --card2:#1B2230; --border:#242C3A; --border2:#333D4E;
+  --w:#EDF1F7; --w2:#AEB8C7; --w3:#7A8698; --w4:#4E5869;
+  --blue:#378ADD; --green:#5DCAA5; --purple:#BF5AF2; --orange:#EF9F27; --red:#E24B4A;
+  --r:14px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--w);font-family:'Inter',system-ui,-apple-system,sans-serif;
+  -webkit-font-smoothing:antialiased;padding:0 0 40px}
+.marco{max-width:1180px;margin:0 auto;padding:0 16px}
 
-    /* HEADER */
-    .header{display:flex;align-items:center;gap:12px;margin-bottom:24px;padding-bottom:16px;border-bottom:1px solid var(--border);}
-    .header img{width:40px;height:40px;border-radius:10px;object-fit:cover;}
-    .header-text .t1{font-size:18px;font-weight:700;letter-spacing:-.4px;}
-    .header-text .t2{font-size:11px;color:var(--w3);margin-top:2px;}
-    .refresh-btn{margin-left:auto;background:var(--glass);border:1px solid var(--border);border-radius:20px;padding:6px 14px;font-size:12px;color:var(--w2);cursor:pointer;font-family:inherit;}
-    .last-update{font-size:10px;color:var(--w3);text-align:center;margin-bottom:16px;}
+/* ── Encabezado ── */
+header{display:flex;align-items:center;gap:14px;padding:22px 0 18px;flex-wrap:wrap;
+  border-bottom:1px solid var(--border);margin-bottom:20px}
+header img{width:48px;height:48px;border-radius:12px;object-fit:cover;flex-shrink:0;
+  box-shadow:0 0 0 1px rgba(255,255,255,.12)}
+.h-tit{font-size:20px;font-weight:800;letter-spacing:-.3px}
+.h-sub{font-size:12px;color:var(--w3);margin-top:2px}
+.h-der{margin-left:auto;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.btn{background:var(--card2);border:1px solid var(--border2);color:var(--w2);border-radius:9px;
+  padding:8px 14px;font-size:13px;font-weight:600;cursor:pointer;font-family:inherit}
+.btn:hover{color:var(--w);border-color:var(--blue)}
+.sello{font-size:11.5px;color:var(--w3);font-variant-numeric:tabular-nums}
 
-    /* KPI GRID */
-    .kpi-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px;}
-    .kpi-card{background:var(--glass);border:1px solid var(--border);border-radius:12px;padding:16px;}
-    .kpi-card.full{grid-column:1/-1;}
-    .kpi-top{font-size:10px;font-weight:600;letter-spacing:1px;color:var(--w3);text-transform:uppercase;margin-bottom:8px;}
-    .kpi-val{font-size:28px;font-weight:800;letter-spacing:-1px;line-height:1;}
-    .kpi-sub{font-size:11px;color:var(--w3);margin-top:4px;}
+/* ── Tarjetas de números ── */
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(178px,1fr));gap:12px;margin-bottom:22px}
+.kpi{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:15px 17px}
+.kpi-val{font-size:26px;font-weight:800;letter-spacing:-.6px;font-variant-numeric:tabular-nums;line-height:1.1}
+.kpi-lbl{font-size:12.5px;color:var(--w2);margin-top:5px;font-weight:500}
+.kpi-sub{font-size:11px;color:var(--w4);margin-top:2px}
+.kpi.destacada{border-color:rgba(93,202,165,.3);background:linear-gradient(180deg,rgba(93,202,165,.07),var(--card))}
 
-    /* SECCIONES */
-    .section{background:var(--glass);border:1px solid var(--border);border-radius:12px;padding:16px;margin-bottom:12px;}
-    .section-title{font-size:11px;font-weight:700;letter-spacing:1px;color:var(--w3);text-transform:uppercase;margin-bottom:14px;}
+/* ── Meta ── */
+.meta{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:15px 17px;margin-bottom:22px}
+.meta-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:9px}
+.meta-lbl{font-size:12.5px;color:var(--w2);font-weight:600}
+.meta-pct{font-size:17px;font-weight:800;font-variant-numeric:tabular-nums}
+.pista{height:9px;background:var(--card2);border-radius:5px;overflow:hidden}
+.relleno{height:100%;border-radius:5px;background:linear-gradient(90deg,var(--blue),var(--green));transition:width .5s}
 
-    /* RANKING */
-    .rank-item{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.05);}
-    .rank-item:last-child{border-bottom:none;}
-    .rank-num{width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;flex-shrink:0;}
-    .rank-name{flex:1;font-size:13px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
-    .rank-amount{font-size:13px;font-weight:700;}
-    .rank-badge{font-size:9px;font-weight:700;padding:2px 7px;border-radius:5px;background:rgba(93,202,165,0.15);color:var(--green);border:1px solid rgba(93,202,165,0.25);margin-left:6px;white-space:nowrap;}
-    .rank-bar-wrap{width:100%;height:3px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:4px;}
-    .rank-bar-fill{height:3px;border-radius:2px;}
+/* ── Bloques ── */
+.bloque{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:16px 17px;margin-bottom:14px}
+.b-tit{font-size:11px;font-weight:700;letter-spacing:.9px;text-transform:uppercase;color:var(--w3);margin-bottom:4px}
+.b-sub{font-size:12px;color:var(--w4);margin-bottom:13px;line-height:1.45}
+.rejilla{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:14px}
+.grafica{position:relative;height:210px}
+.grafica.alta{height:250px}
 
-    /* COMPRAS */
-    .compra-item{display:flex;align-items:center;justify-content:space-between;padding:9px 0;border-bottom:1px solid rgba(255,255,255,0.05);}
-    .compra-item:last-child{border-bottom:none;}
-    .compra-name{font-size:13px;font-weight:500;}
-    .compra-time{font-size:10px;color:var(--w3);margin-top:2px;}
-    .compra-monto{font-size:14px;font-weight:700;color:var(--green);}
+/* ── Listas ── */
+.lista{display:flex;flex-direction:column}
+.fila{display:flex;align-items:center;gap:11px;padding:9px 0;border-bottom:1px solid var(--border)}
+.fila:last-child{border-bottom:none}
+.pos{width:23px;height:23px;border-radius:6px;background:var(--card2);color:var(--w3);
+  display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0}
+.pos.oro{background:rgba(239,159,39,.18);color:var(--orange)}
+.f-nom{flex:1;min-width:0;font-size:13.5px;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.f-det{font-size:11.5px;color:var(--w4);margin-top:1px}
+.f-val{font-size:13.5px;font-weight:700;font-variant-numeric:tabular-nums;text-align:right;flex-shrink:0}
+.chip{font-size:10px;font-weight:700;padding:2px 7px;border-radius:6px;flex-shrink:0}
+.chip.verde{background:rgba(93,202,165,.16);color:var(--green)}
+.chip.morado{background:rgba(191,90,242,.16);color:var(--purple)}
+.chip.naranja{background:rgba(239,159,39,.16);color:var(--orange)}
+.chip.rojo{background:rgba(226,75,74,.16);color:var(--red)}
+.vacio{font-size:13px;color:var(--w4);padding:14px 0;text-align:center}
 
-    /* LOADING */
-    .loading{text-align:center;padding:60px 20px;color:var(--w3);}
-    .loading .spin{font-size:32px;animation:spin 1s linear infinite;display:inline-block;margin-bottom:12px;}
-    @keyframes spin{to{transform:rotate(360deg)}}
+/* ── Estados ── */
+#cargando,#error{text-align:center;padding:70px 20px;color:var(--w3);font-size:14px}
+#error{color:var(--red)}
+#error small{display:block;color:var(--w4);margin-top:8px;font-size:12px}
+.pie{text-align:center;font-size:11.5px;color:var(--w4);margin-top:24px;line-height:1.6}
 
-    /* ERROR */
-    .error{text-align:center;padding:40px 20px;color:var(--orange);}
-  </style>
+@media (max-width:640px){
+  .kpi-val{font-size:22px}
+  header{padding:16px 0 14px}
+  .h-tit{font-size:17px}
+}
+</style>
 </head>
 <body>
-<div class="mesh"></div>
-<div class="wrap">
+<div class="marco">
+  <div id="cargando">Cargando la información del negocio…</div>
+  <div id="error" style="display:none"></div>
+  <div id="todo" style="display:none">
+    <header>
+      <img id="logo" src="" alt="" style="display:none">
+      <div>
+        <div class="h-tit" id="negocio">Rewords</div>
+        <div class="h-sub">Tablero del propietario</div>
+      </div>
+      <div class="h-der">
+        <span class="sello" id="sello"></span>
+        <button class="btn" onclick="cargar()">↺ Actualizar</button>
+      </div>
+    </header>
 
-  <div class="header">
-    <img src="https://res.cloudinary.com/dbwvbrl4w/image/upload/v1781124855/logo_olgedq.jpg" alt="Logo"/>
-    <div class="header-text">
-      <div class="t1">Rewords Dashboard</div>
-      <div class="t2">Panel del propietario</div>
+    <div class="kpis" id="kpis"></div>
+    <div class="meta" id="meta"></div>
+
+    <div class="rejilla">
+      <div class="bloque">
+        <div class="b-tit">Ventas por día</div>
+        <div class="b-sub">Los últimos 30 días con movimiento.</div>
+        <div class="grafica"><canvas id="g-dias"></canvas></div>
+      </div>
+      <div class="bloque">
+        <div class="b-tit">Qué día vendes más</div>
+        <div class="b-sub">Suma de todo el historial, agrupado por día de la semana.</div>
+        <div class="grafica"><canvas id="g-semana"></canvas></div>
+      </div>
+      <div class="bloque">
+        <div class="b-tit">A qué hora se llena</div>
+        <div class="b-sub">Sirve para decidir a qué hora necesitas más gente en el mostrador.</div>
+        <div class="grafica"><canvas id="g-hora"></canvas></div>
+      </div>
+      <div class="bloque">
+        <div class="b-tit">Cómo te pagan</div>
+        <div class="b-sub">Este mes. El efectivo es lo único que debe estar en el cajón.</div>
+        <div class="grafica"><canvas id="g-pago"></canvas></div>
+      </div>
+      <div class="bloque">
+        <div class="b-tit">Socios contra público</div>
+        <div class="b-sub">De todo lo que has vendido, cuánto viene de gente con membresía.</div>
+        <div class="grafica"><canvas id="g-socios"></canvas></div>
+      </div>
+      <div class="bloque">
+        <div class="b-tit">Cómo están tus clientes</div>
+        <div class="b-sub">Por lo que llevan consumido en el periodo.</div>
+        <div class="grafica"><canvas id="g-seg"></canvas></div>
+      </div>
     </div>
-    <button class="refresh-btn" onclick="cargar()">↺ Actualizar</button>
+
+    <div class="bloque">
+      <div class="b-tit">Clientes nuevos contra los que vuelven</div>
+      <div class="b-sub">Si la barra de nuevos se cae y la de recurrentes no crece, el negocio se está estancando.</div>
+      <div class="grafica alta"><canvas id="g-nuevos"></canvas></div>
+    </div>
+
+    <div class="rejilla">
+      <div class="bloque">
+        <div class="b-tit">Lo que más te deja este mes</div>
+        <div class="b-sub">Por importe vendido, no por cantidad.</div>
+        <div class="lista" id="l-productos"></div>
+      </div>
+      <div class="bloque">
+        <div class="b-tit">Tus mejores clientes</div>
+        <div class="b-sub">Por consumo del periodo vigente.</div>
+        <div class="lista" id="l-top"></div>
+      </div>
+      <div class="bloque">
+        <div class="b-tit">Se te está acabando</div>
+        <div class="b-sub">Diez piezas o menos en existencia.</div>
+        <div class="lista" id="l-inventario"></div>
+      </div>
+      <div class="bloque">
+        <div class="b-tit">Clientes que dejaron de venir</div>
+        <div class="b-sub">Más de 45 días sin comprar. Vale la pena hablarles.</div>
+        <div class="lista" id="l-riesgo"></div>
+      </div>
+    </div>
+
+    <div class="bloque">
+      <div class="b-tit">Ventas de hoy</div>
+      <div class="b-sub" id="hoy-sub"></div>
+      <div class="lista" id="l-hoy"></div>
+    </div>
+
+    <div class="pie" id="pie"></div>
   </div>
-
-  <div class="last-update" id="last-update">Cargando...</div>
-  <div id="main"></div>
-
 </div>
 
 <script>
-const DATA_URL = "https://robertrojas09.github.io/rewords/dashboard.json";
+// Cada negocio publica su dashboard.json en su propia carpeta cuando tiene slug configurado.
+// Sin slug, va en la raíz del repositorio. Esta ruta TIENE que coincidir con
+// ruta_dashboard_github() del backend, o la página muestra datos congelados.
+const NEGOCIO_SLUG = new URLSearchParams(location.search).get('negocio') || '';
+const DATA_URL = NEGOCIO_SLUG
+  ? `https://robertrojas09.github.io/rewords/clientes/${NEGOCIO_SLUG}/dashboard.json`
+  : 'https://robertrojas09.github.io/rewords/dashboard.json';
+
+const P = n => '$' + Number(n||0).toLocaleString('es-MX',{maximumFractionDigits:0});
+const P2 = n => '$' + Number(n||0).toLocaleString('es-MX',{minimumFractionDigits:2});
+const esc = t => String(t==null?'':t).replace(/&/g,'&amp;').replace(/</g,'&lt;')
+                  .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+
+const COL = {azul:'#378ADD', verde:'#5DCAA5', morado:'#BF5AF2', naranja:'#EF9F27', rojo:'#E24B4A'};
+const graficas = {};
+
+// Base común: la rejilla y las etiquetas se leen en oscuro, y el eje de dinero va formateado.
+function baseOpciones(extra){
+  return Object.assign({
+    responsive:true, maintainAspectRatio:false,
+    plugins:{ legend:{display:false},
+      tooltip:{backgroundColor:'#1B2230',borderColor:'#333D4E',borderWidth:1,
+               titleColor:'#EDF1F7',bodyColor:'#AEB8C7',padding:10,displayColors:false}},
+    scales:{
+      x:{grid:{display:false},ticks:{color:'#7A8698',font:{size:10.5}}},
+      y:{grid:{color:'#242C3A'},border:{display:false},
+         ticks:{color:'#7A8698',font:{size:10.5},callback:v=>P(v)}}
+    }
+  }, extra||{});
+}
+
+function dibujar(id, config){
+  const cv = document.getElementById(id);
+  if(!cv) return;
+  if(graficas[id]) graficas[id].destroy();
+  graficas[id] = new Chart(cv, config);
+}
+
+function pintarLista(id, filas, vacio){
+  const c = document.getElementById(id);
+  if(!c) return;
+  c.innerHTML = filas.length ? filas.join('') : `<div class="vacio">${esc(vacio)}</div>`;
+}
 
 async function cargar(){
-  const main = document.getElementById('main');
-  main.innerHTML = '<div class="loading"><div class="spin">◌</div><div>Cargando datos...</div></div>';
-  document.getElementById('last-update').textContent = 'Actualizando...';
-
+  document.getElementById('cargando').style.display='block';
+  document.getElementById('error').style.display='none';
+  let d;
   try{
-    const r = await fetch(DATA_URL + '?t=' + Date.now());
-    if(!r.ok) throw new Error('Sin datos');
-    const d = await r.json();
-    renderDashboard(d);
-    document.getElementById('last-update').textContent = 'Actualizado: ' + new Date(d.actualizado).toLocaleString('es-MX');
-  } catch(e){
-    main.innerHTML = '<div class="error">⚠ No hay datos disponibles aún.<br><br>Registra una compra en el programa para ver el dashboard.</div>';
-    document.getElementById('last-update').textContent = '';
+    const r = await fetch(DATA_URL + '?t=' + Date.now(), {cache:'no-store'});
+    if(!r.ok) throw new Error('El archivo del tablero respondió ' + r.status);
+    d = await r.json();
+  }catch(e){
+    document.getElementById('cargando').style.display='none';
+    document.getElementById('error').style.display='block';
+    document.getElementById('error').innerHTML =
+      'No se pudo leer la información del negocio.' +
+      `<small>${esc(e.message)}<br>El tablero se publica solo con cada venta. ` +
+      `Si acabas de instalar, haz una venta o usa "Publicar el tablero" en Configuración.</small>`;
+    return;
   }
+  document.getElementById('cargando').style.display='none';
+  document.getElementById('todo').style.display='block';
+
+  // ── Encabezado ──
+  document.getElementById('negocio').textContent = d.negocio || 'Rewords';
+  document.title = (d.negocio || 'Rewords') + ' — Tablero';
+  if(d.logo){
+    const im = document.getElementById('logo');
+    im.src = d.logo; im.style.display='block';
+  }
+  const cuando = d.actualizado ? new Date(d.actualizado) : null;
+  document.getElementById('sello').textContent = cuando
+    ? 'Actualizado ' + cuando.toLocaleString('es-MX') : '';
+
+  // ── Números ──
+  const kpi = (val, lbl, sub, color, destacada) =>
+    `<div class="kpi${destacada?' destacada':''}">
+       <div class="kpi-val" ${color?`style="color:${color}"`:''}>${val}</div>
+       <div class="kpi-lbl">${esc(lbl)}</div>
+       ${sub?`<div class="kpi-sub">${esc(sub)}</div>`:''}
+     </div>`;
+  const kpis = [
+    kpi(P(d.total_mes), 'Vendido este mes', 'todo, ya con descuentos', COL.verde, true),
+    kpi(P(d.total_membresia), 'De clientes con membresía',
+        d.total_mes ? Math.round(100*d.total_membresia/d.total_mes)+'% del total' : '', COL.morado),
+    kpi(String(d.tickets_mes||0), 'Tickets del mes', 'ventas cobradas'),
+    kpi(P2(d.ticket_promedio), 'Ticket promedio', 'lo que gasta cada cliente'),
+    kpi(String(d.total_clientes||0), 'Clientes registrados',
+        (d.con_descuento||0) + ' con descuento activo', COL.azul),
+    kpi(P(d.total_hoy), 'Vendido hoy', (d.tickets_hoy||0) + ' tickets', COL.naranja),
+  ];
+  if(d.regalado_en_descuentos > 0){
+    kpis.push(kpi(P2(d.regalado_en_descuentos), 'Regalado en descuentos',
+                  'de ' + P(d.vendido_a_precio_de_lista) + ' a precio de lista', COL.morado));
+  }
+  if(d.productos_activos) kpis.push(kpi(String(d.productos_activos), 'Productos en catálogo', 'activos'));
+  document.getElementById('kpis').innerHTML = kpis.join('');
+
+  // ── Meta ──
+  const pct = Math.min(100, d.pct_meta||0);
+  document.getElementById('meta').innerHTML = d.meta
+    ? `<div class="meta-top">
+         <span class="meta-lbl">Meta del mes: ${P(d.meta)}</span>
+         <span class="meta-pct" style="color:${pct>=100?COL.verde:pct>=60?COL.azul:COL.naranja}">${(d.pct_meta||0).toFixed(1)}%</span>
+       </div>
+       <div class="pista"><div class="relleno" style="width:${pct}%"></div></div>
+       <div class="kpi-sub" style="margin-top:7px">${pct>=100
+          ? 'Meta alcanzada.'
+          : 'Faltan ' + P(Math.max(0,(d.meta||0)-(d.total_mes||0))) + ' para llegar.'}</div>`
+    : '';
+
+  // ── Gráficas ──
+  const dias = d.ventas_por_dia||[];
+  dibujar('g-dias', {type:'bar', data:{
+    labels: dias.map(x=>x.fecha.slice(5)),
+    datasets:[{data:dias.map(x=>x.total), backgroundColor:COL.verde, borderRadius:4, maxBarThickness:26}]
+  }, options: baseOpciones()});
+
+  const sem = d.patron_semanal||[];
+  const maxSem = Math.max(...sem.map(x=>x.total), 0);
+  dibujar('g-semana', {type:'bar', data:{
+    labels: sem.map(x=>x.dia.slice(0,3)),
+    datasets:[{data:sem.map(x=>x.total),
+      backgroundColor: sem.map(x=>x.total===maxSem&&maxSem>0?COL.naranja:COL.azul),
+      borderRadius:4, maxBarThickness:44}]
+  }, options: baseOpciones()});
+
+  const hrs = d.patron_horario||[];
+  dibujar('g-hora', {type:'line', data:{
+    labels: hrs.map(x=>x.hora),
+    datasets:[{data:hrs.map(x=>x.total), borderColor:COL.morado, backgroundColor:'rgba(191,90,242,.16)',
+      fill:true, tension:.34, pointRadius:3, pointBackgroundColor:COL.morado, borderWidth:2}]
+  }, options: baseOpciones()});
+
+  const pagos = d.metodos_pago||[];
+  dibujar('g-pago', {type:'doughnut', data:{
+    labels: pagos.map(x=>x.metodo),
+    datasets:[{data:pagos.map(x=>x.total),
+      backgroundColor:[COL.verde,COL.azul,COL.morado,COL.naranja,COL.rojo], borderWidth:0}]
+  }, options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{position:'bottom',labels:{color:'#AEB8C7',font:{size:11},padding:11,boxWidth:11}},
+      tooltip:{callbacks:{label:c=>` ${c.label}: ${P2(c.raw)}`}}}}});
+
+  const sp = d.socios_vs_publico||{socios:0,publico:0};
+  dibujar('g-socios', {type:'doughnut', data:{
+    labels:['Con membresía','Público en general'],
+    datasets:[{data:[sp.socios,sp.publico], backgroundColor:[COL.morado,'#3A4453'], borderWidth:0}]
+  }, options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{position:'bottom',labels:{color:'#AEB8C7',font:{size:11},padding:11,boxWidth:11}},
+      tooltip:{callbacks:{label:c=>` ${c.label}: ${P2(c.raw)}`}}}}});
+
+  const seg = d.segmentacion||[];
+  dibujar('g-seg', {type:'bar', data:{
+    labels: seg.map(x=>x.grupo),
+    datasets:[{data:seg.map(x=>x.clientes), backgroundColor:COL.azul, borderRadius:4, maxBarThickness:40}]
+  }, options: baseOpciones({indexAxis:'y', scales:{
+      x:{grid:{color:'#242C3A'},border:{display:false},ticks:{color:'#7A8698',font:{size:10.5},precision:0}},
+      y:{grid:{display:false},ticks:{color:'#7A8698',font:{size:10.5}}}}})});
+
+  const nr = d.nuevos_recurrentes||[];
+  dibujar('g-nuevos', {type:'bar', data:{
+    labels: nr.map(x=>x.mes),
+    datasets:[
+      {label:'Nuevos', data:nr.map(x=>x.nuevos), backgroundColor:COL.verde, borderRadius:4, maxBarThickness:40},
+      {label:'Que ya venían', data:nr.map(x=>x.recurrentes), backgroundColor:COL.azul, borderRadius:4, maxBarThickness:40}
+    ]
+  }, options: baseOpciones({
+    plugins:{legend:{display:true,position:'bottom',labels:{color:'#AEB8C7',font:{size:11},padding:11,boxWidth:11}},
+      tooltip:{backgroundColor:'#1B2230',borderColor:'#333D4E',borderWidth:1,
+               titleColor:'#EDF1F7',bodyColor:'#AEB8C7',padding:10}},
+    scales:{x:{grid:{display:false},ticks:{color:'#7A8698',font:{size:10.5}}},
+      y:{grid:{color:'#242C3A'},border:{display:false},
+         ticks:{color:'#7A8698',font:{size:10.5},precision:0}}}})});
+
+  // ── Listas ──
+  pintarLista('l-productos', (d.top_productos||[]).map((x,i)=>`
+    <div class="fila">
+      <div class="pos${i<3?' oro':''}">${i+1}</div>
+      <div class="f-nom">${esc(x.nombre)}<div class="f-det">${x.cantidad} vendidos</div></div>
+      <div class="f-val" style="color:${COL.verde}">${P2(x.importe)}</div>
+    </div>`), 'Todavía no hay ventas con detalle este mes.');
+
+  pintarLista('l-top', (d.top||[]).filter(x=>x.acumulado>0).map((x,i)=>`
+    <div class="fila">
+      <div class="pos${i<3?' oro':''}">${i+1}</div>
+      <div class="f-nom">${esc(x.nombre)}</div>
+      ${x.descuento>0?`<span class="chip morado">${x.descuento}%</span>`:''}
+      <div class="f-val">${P2(x.acumulado)}</div>
+    </div>`), 'Nadie ha consumido en el periodo vigente.');
+
+  pintarLista('l-inventario', (d.inventario_bajo||[]).map(x=>`
+    <div class="fila">
+      <div class="f-nom">${esc(x.nombre)}</div>
+      <span class="chip ${x.stock<=0?'rojo':x.stock<=3?'naranja':'verde'}">${x.stock<=0?'agotado':'quedan '+x.stock}</span>
+      <div class="f-val" style="color:var(--w3);font-size:12px">${esc(x.unidad)}</div>
+    </div>`), 'Nada por debajo de diez piezas. Buen inventario.');
+
+  pintarLista('l-riesgo', (d.clientes_en_riesgo||[]).map(x=>`
+    <div class="fila">
+      <div class="f-nom">${esc(x.nombre)}</div>
+      <span class="chip ${x.dias>=120?'rojo':x.dias>=90?'naranja':'verde'}">${x.dias} días</span>
+    </div>`), 'Ningún cliente lleva más de 45 días sin comprar.');
+
+  const hoy = d.compras_hoy||[];
+  document.getElementById('hoy-sub').textContent = hoy.length
+    ? `${hoy.length} ${hoy.length===1?'venta':'ventas'} por ${P2(d.total_hoy)}.`
+    : 'Todavía no hay ventas hoy.';
+  pintarLista('l-hoy', hoy.map(x=>`
+    <div class="fila">
+      <div class="f-nom">${esc(x.nombre)}<div class="f-det">${esc(x.hora)}</div></div>
+      ${x.descuento>0?`<span class="chip morado">${x.descuento}%</span>`:''}
+      <div class="f-val" style="color:${COL.verde}">${P2(x.monto)}</div>
+    </div>`), 'Todavía no hay ventas hoy.');
+
+  const suc = (d.sucursales||[]).map(x=>x.nombre).join(' · ');
+  document.getElementById('pie').innerHTML =
+    `${esc(d.negocio||'')}${suc?' — '+esc(suc):''}<br>` +
+    'Este tablero se actualiza solo con cada venta, cierre de cuenta, alta de cliente y cancelación.';
 }
 
-function renderDashboard(d){
-  const main = document.getElementById('main');
-  const top = d.top || [];
-  const compras = d.compras_hoy || [];
-  const maxV = top[0]?.acumulado || 1;
-  const RC = ['#185FA5','#0F6E56','#854F0B'];
-  const BC = ['#378ADD','#5DCAA5','#EF9F27','rgba(255,255,255,0.3)','rgba(255,255,255,0.3)'];
-
-  main.innerHTML = `
-    <!-- KPI GRID -->
-    <div class="kpi-grid">
-      <div class="kpi-card">
-        <div class="kpi-top">Vendido</div>
-        <div class="kpi-val">$${(d.total_mes||0).toLocaleString('es-MX',{maximumFractionDigits:0})}</div>
-        <div class="kpi-sub">este mes</div>
-      </div>
-      <div class="kpi-card">
-        <div class="kpi-top">Clientes</div>
-        <div class="kpi-val" style="color:var(--blue)">${d.total_clientes||0}</div>
-        <div class="kpi-sub">registrados</div>
-      </div>
-      <div class="kpi-card">
-        <div class="kpi-top">Con descuento</div>
-        <div class="kpi-val" style="color:var(--green)">${d.con_descuento||0}</div>
-        <div class="kpi-sub">activos</div>
-      </div>
-      <div class="kpi-card">
-        <div class="kpi-top">Compras hoy</div>
-        <div class="kpi-val" style="color:var(--orange)">${compras.length}</div>
-        <div class="kpi-sub">transacciones</div>
-      </div>
-    </div>
-
-    <!-- RANKING -->
-    <div class="section">
-      <div class="section-title">🏆 Top clientes del mes</div>
-      ${top.slice(0,10).map((r,i)=>`
-        <div class="rank-item">
-          <div class="rank-num" style="background:${i<3?RC[i]:'rgba(255,255,255,0.08)'}">${i+1}</div>
-          <div style="flex:1;min-width:0">
-            <div style="display:flex;align-items:center">
-              <div class="rank-name">${r.nombre}</div>
-              ${r.descuento>0?`<div class="rank-badge">${r.descuento}%</div>`:''}
-            </div>
-            <div class="rank-bar-wrap">
-              <div class="rank-bar-fill" style="width:${Math.min((r.acumulado||0)/maxV*100,100).toFixed(1)}%;background:${BC[Math.min(i,4)]}"></div>
-            </div>
-          </div>
-          <div class="rank-amount" style="margin-left:10px">$${(r.acumulado||0).toLocaleString('es-MX',{maximumFractionDigits:0})}</div>
-        </div>`).join('')}
-    </div>
-
-    <!-- COMPRAS HOY -->
-    <div class="section">
-      <div class="section-title">📋 Compras de hoy</div>
-      ${compras.length ? compras.slice(0,15).map(c=>`
-        <div class="compra-item">
-          <div>
-            <div class="compra-name">${c.nombre}</div>
-            <div class="compra-time">${c.hora}</div>
-          </div>
-          <div class="compra-monto">$${parseFloat(c.monto).toLocaleString('es-MX',{minimumFractionDigits:2})}</div>
-        </div>`).join('') 
-      : '<div style="text-align:center;padding:20px;color:var(--w3);font-size:13px">Sin compras hoy</div>'}
-    </div>`;
-}
-
-// Auto-refresh cada 2 minutos
 cargar();
-setInterval(cargar, 120000);
+// Se refresca solo cada 3 minutos: es un tablero que se deja abierto en una pantalla.
+setInterval(cargar, 180000);
 </script>
 </body>
 </html>
