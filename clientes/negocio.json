@@ -1,0 +1,16 @@
+{
+  "codigo_negocio": "BT7EE-GK5H7",
+  "nombre": "renuevatec",
+  "slug": "",
+  "sucursales": [
+    {
+      "id": 1,
+      "nombre": "Renuevatec"
+    },
+    {
+      "id": 2,
+      "nombre": "Tlapaleria Centro"
+    }
+  ],
+  "actualizado": "2026-09-14 23:23"
+}
