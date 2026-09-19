@@ -1,0 +1,12 @@
+{
+  "codigo_negocio": "PBVJE-5FCVT",
+  "nombre": "Tlapalería del Centro",
+  "slug": "tlapaleria-del-centro-546246",
+  "sucursales": [
+    {
+      "id": 1,
+      "nombre": "Sucursal principal"
+    }
+  ],
+  "actualizado": "2026-09-18 23:23"
+}
