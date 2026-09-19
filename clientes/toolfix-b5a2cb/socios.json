@@ -17,7 +17,21 @@
    "foto_url": "/fotos_socios/001_055dc0f5410f.jpg",
    "desc_manual": "1",
    "descuento_manual_pct": 2
+  },
+  "2": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Roberto Carlos",
+   "telefono": "55 3472 5718",
+   "email": "robert@gmail.com",
+   "cumpleanos": "1996-09-23",
+   "nota": "",
+   "foto_url": ""
   }
  },
- "actualizado": "2026-09-18 23:27:48"
+ "actualizado": "2026-09-18 23:33:50"
 }
