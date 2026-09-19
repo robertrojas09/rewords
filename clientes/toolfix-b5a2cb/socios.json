@@ -30,8 +30,22 @@
    "email": "robert@gmail.com",
    "cumpleanos": "1996-09-23",
    "nota": "",
-   "foto_url": ""
+   "foto_url": "/fotos_socios/002_5dc9814a2320.jpg"
+  },
+  "3": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Juan Carlos Rojas",
+   "telefono": "55 7505 8529",
+   "email": "jcrojas@gmail.com",
+   "cumpleanos": "09/01/1990",
+   "nota": "",
+   "foto_url": "/fotos_socios/003_cf22db33e6bb.jpg"
   }
  },
- "actualizado": "2026-09-19 07:35:17"
+ "actualizado": "2026-09-19 07:44:19"
 }
