@@ -1,0 +1,12 @@
+{
+  "codigo_negocio": "88S4A-BCY5K",
+  "nombre": "Tlapalería del Centro",
+  "slug": "tlapaleria-del-centro-000107",
+  "sucursales": [
+    {
+      "id": 1,
+      "nombre": "Sucursal principal"
+    }
+  ],
+  "actualizado": "2026-09-19 01:14"
+}
