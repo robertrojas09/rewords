@@ -1,6 +1,21 @@
 {
  "version": 1,
  "periodo": "2026-09",
- "socios": {},
- "actualizado": "2026-09-18 22:23:22"
+ "socios": {
+  "1": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "JCarlos",
+   "telefono": "5534278394",
+   "email": "jcarlos@gmail.com",
+   "cumpleanos": "1987-08-28",
+   "nota": "",
+   "foto_url": "/fotos_socios/001_055dc0f5410f.jpg"
+  }
+ },
+ "actualizado": "2026-09-18 22:29:24"
 }
