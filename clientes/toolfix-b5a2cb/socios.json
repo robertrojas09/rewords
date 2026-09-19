@@ -45,7 +45,21 @@
    "cumpleanos": "09/01/1990",
    "nota": "",
    "foto_url": "/fotos_socios/003_cf22db33e6bb.jpg"
+  },
+  "4": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Juan Carlos Rojas",
+   "telefono": "77323564",
+   "email": "juan@gmail.com",
+   "cumpleanos": "23/09/1996",
+   "nota": "",
+   "foto_url": ""
   }
  },
- "actualizado": "2026-09-19 14:50:50"
+ "actualizado": "2026-09-19 15:11:52"
 }
