@@ -1,0 +1,33 @@
+{
+  "version": "2026.09.19",
+  "fecha": "19 de septiembre de 2026",
+  "titulo": "La versión que salió de usarlo en un mostrador de verdad",
+  "notas": [
+    "El cumpleaños ya se puede capturar. El campo pedía DD/MM/AAAA y el programa solo aceptaba AAAA-MM-DD, así que NINGÚN cumpleaños entraba. Ahora acepta 28/08/1987, 1987-08-28, 28-08-1987 y hasta 28/08 sin año.",
+    "Y el cumpleaños que sí entraba se guardaba al revés de como lo lee la pantalla de Cumpleaños: ningún socio iba a aparecer NUNCA en su día, que es lo único para lo que se captura ese dato.",
+    "Un socio SIN FOTO ya tiene tarjeta, con sus iniciales. Antes no se publicaba y su chip NFC abría una página que no existe: el socio acercaba su tarjeta y veía un error.",
+    "El aviso de \"agrega el token de GitHub\" salía en TODAS las altas, hubiera token o no. Mentía siempre. Ahora solo sale si de verdad no se pudo publicar, y dice qué revisar.",
+    "Ya se puede buscar a un socio por su NÚMERO, el mismo que dice su tarjeta. En la caja no se podía: solo buscaba por nombre, y el número es justo lo que trae grabado el chip.",
+    "Los productos que das de alta aparecen en la caja de inmediato. Antes el cajero tenía que cerrar sesión para verlos.",
+    "La ventana de editar un producto ya cabe en la pantalla y hace scroll. En pantallas chicas el botón de Guardar quedaba fuera y no había manera de llegar a él: la única salida era cerrar el programa.",
+    "Cuatro pantallas -Reglas del descuento, Seguridad, Sucursales y Respaldos- se dibujaban encima de sí mismas al guardar y se quedaban en \"Cargando…\" para siempre. Sí guardaban, pero parecían muertas.",
+    "Cambiar los escalones del descuento ahora vuelve a medir a todos tus socios, y te dice a cuántos les cambió el porcentaje. Antes se quedaban con el nivel ganado bajo las reglas viejas para siempre.",
+    "El corte del día ya se puede IMPRIMIR, con dos renglones de firma para el que entrega y el que recibe, más cuánto regalaste en descuentos y tu ticket promedio.",
+    "En la cuenta de mesas o vendedores, cada renglón trae − y + para subir y bajar la cantidad. Antes había que agregar el producto una vez por pieza.",
+    "Y ahí también se puede vender algo marcado en cero, igual que en la caja. Se avisa y queda en la bitácora, pero ya no se pierde la venta.",
+    "El QR del ticket apuntaba a una dirección equivocada cuando el negocio tenía su propia carpeta: el cliente lo escaneaba y le salía error. Además se le pedía a un servidor de internet, así que sin internet el ticket salía con un hueco blanco. Ahora lo dibuja el propio programa.",
+    "Botón \"Abrir el tablero en el celular\": un código QR con la dirección de tu tablero público, para cuando no la traes a la mano.",
+    "Nueva regla de lealtad: \"Se gana un mes, se usa el siguiente\". El socio estrena su porcentaje en cuanto alcanza el objetivo y lo conserva todo el mes siguiente. Si no vuelve a llegar, lo pierde. Sus puntos no se borran nunca.",
+    "El inventario dice cuántos productos tienes, y cuántos se están viendo cuando buscas algo.",
+    "Si das de alta un producto que ya tienes con ese nombre, te avisa antes de guardarlo. Dos productos iguales descuadran el inventario y eso se descubre semanas después.",
+    "Si el programa se está ejecutando desde una carpeta temporal de Windows -pasa cuando se abre el .exe sin descomprimir el zip- sale una barra roja avisando. Así se ve normal y funciona, pero cada vez que se abre empieza vacío y Windows borra esa carpeta cuando quiere.",
+    "Sin logo configurado ya se ven las INICIALES de tu negocio. Antes venía puesto el logo de otro negocio como valor de fábrica, y salía impreso en las tarjetas que se publican en internet.",
+    "El nombre de usuario ya no distingue mayúsculas al entrar, y al crearlo te dice con qué nombre quedó. En el celular el teclado pone mayúscula sola y por eso el cajero no podía entrar nunca.",
+    "Las dos pantallas de entrada dicen el motivo REAL cuando no se puede entrar. Si el equipo está frenado por intentos fallidos lo dice y cuántos segundos faltan, en vez de culpar a la contraseña.",
+    "Al mandar el respaldo a tu nube, el programa te da la RUTA EXACTA donde quedó y cómo comprobar que de verdad subió.",
+    "El programa ya no lleva un token de GitHub con acceso a todo: ahora es uno limitado a un solo repositorio y a subir archivos. Aunque alguien lo saque del programa, no puede hacer nada más."
+  ],
+  "tamano": 42296582,
+  "sha256": "776586fc922a99753fd26fadba9db32f8bb360828fcc8c4484c59897bf4a02f0",
+  "url": "https://github.com/robertrojas09/rewords/releases/download/v2026.09.19/Rewords_2026.09.19.rwup"
+}
