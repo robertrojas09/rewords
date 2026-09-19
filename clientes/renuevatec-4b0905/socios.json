@@ -1,6 +1,2807 @@
 {
  "version": 1,
  "periodo": "2026-09",
- "socios": {},
- "actualizado": "2026-09-19 00:56:30"
+ "socios": {
+  "1": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Claudia Álvarez Álvarez",
+   "telefono": "99816185676",
+   "email": "",
+   "cumpleanos": "20/08/1956",
+   "nota": "",
+   "foto_url": "/fotos_socios/001_demo.png"
+  },
+  "2": {
+   "aportes": {
+    "1": 3388.0
+   },
+   "puntos": {
+    "1": 1094
+   },
+   "nombre": "Claudia Ortiz Hernández",
+   "telefono": "8119920725",
+   "email": "",
+   "cumpleanos": "11/05/1987",
+   "nota": "",
+   "foto_url": "/fotos_socios/002_demo.png"
+  },
+  "3": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 19
+   },
+   "nombre": "Ricardo Cabrera Álvarez",
+   "telefono": "84499460991",
+   "email": "",
+   "cumpleanos": "02/08/1971",
+   "nota": "",
+   "foto_url": "/fotos_socios/003_demo.png"
+  },
+  "4": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 54
+   },
+   "nombre": "Ramón Reyes Delgado",
+   "telefono": "84426761856",
+   "email": "",
+   "cumpleanos": "23/01/1955",
+   "nota": "",
+   "foto_url": "/fotos_socios/004_demo.png"
+  },
+  "5": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 61
+   },
+   "nombre": "Alejandra Vargas Gutiérrez",
+   "telefono": "22239448227",
+   "email": "",
+   "cumpleanos": "05/11/1984",
+   "nota": "",
+   "foto_url": "/fotos_socios/005_demo.png"
+  },
+  "6": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 23
+   },
+   "nombre": "María Guerrero Campos",
+   "telefono": "84407627941",
+   "email": "",
+   "cumpleanos": "17/01/1965",
+   "nota": "",
+   "foto_url": "/fotos_socios/006_demo.png"
+  },
+  "7": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 253
+   },
+   "nombre": "Rosa Juárez López",
+   "telefono": "3355923855",
+   "email": "",
+   "cumpleanos": "05/06/1997",
+   "nota": "",
+   "foto_url": "/fotos_socios/007_demo.png"
+  },
+  "8": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Lourdes Vázquez López",
+   "telefono": "87129136945",
+   "email": "",
+   "cumpleanos": "18/12/1958",
+   "nota": "",
+   "foto_url": "/fotos_socios/008_demo.png"
+  },
+  "9": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Mónica García Campos",
+   "telefono": "66736741299",
+   "email": "",
+   "cumpleanos": "21/01/1963",
+   "nota": "",
+   "foto_url": "/fotos_socios/009_demo.png"
+  },
+  "10": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Martha Guerrero Álvarez",
+   "telefono": "87182690581",
+   "email": "",
+   "cumpleanos": "25/04/1967",
+   "nota": "",
+   "foto_url": "/fotos_socios/010_demo.png"
+  },
+  "11": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Leticia González Castillo",
+   "telefono": "87116782132",
+   "email": "",
+   "cumpleanos": "14/12/1966",
+   "nota": "",
+   "foto_url": "/fotos_socios/011_demo.png"
+  },
+  "12": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 61
+   },
+   "nombre": "Pedro Rodríguez Ortiz",
+   "telefono": "22216749951",
+   "email": "",
+   "cumpleanos": "13/10/1974",
+   "nota": "",
+   "foto_url": "/fotos_socios/012_demo.png"
+  },
+  "13": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Alejandro Cruz Rodríguez",
+   "telefono": "47718528500",
+   "email": "",
+   "cumpleanos": "13/06/1961",
+   "nota": "",
+   "foto_url": "/fotos_socios/013_demo.png"
+  },
+  "14": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 352
+   },
+   "nombre": "Pedro Ramírez Jiménez",
+   "telefono": "47715842482",
+   "email": "",
+   "cumpleanos": "02/08/1997",
+   "nota": "",
+   "foto_url": "/fotos_socios/014_demo.png"
+  },
+  "15": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 264
+   },
+   "nombre": "Adriana Torres Vázquez",
+   "telefono": "5528187928",
+   "email": "",
+   "cumpleanos": "20/01/1976",
+   "nota": "",
+   "foto_url": "/fotos_socios/015_demo.png"
+  },
+  "16": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Roberto Castillo Cruz",
+   "telefono": "8142675705",
+   "email": "",
+   "cumpleanos": "06/09/1974",
+   "nota": "",
+   "foto_url": "/fotos_socios/016_demo.png"
+  },
+  "17": {
+   "aportes": {
+    "1": 1020.5
+   },
+   "puntos": {
+    "1": 670
+   },
+   "nombre": "Arturo Delgado Cabrera",
+   "telefono": "5588933535",
+   "email": "",
+   "cumpleanos": "24/10/1992",
+   "nota": "",
+   "foto_url": "/fotos_socios/017_demo.png"
+  },
+  "18": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 171
+   },
+   "nombre": "Rosa Rodríguez Gómez",
+   "telefono": "61440406947",
+   "email": "",
+   "cumpleanos": "20/10/1997",
+   "nota": "",
+   "foto_url": "/fotos_socios/018_demo.png"
+  },
+  "19": {
+   "aportes": {
+    "1": 1185.52
+   },
+   "puntos": {
+    "1": 1511
+   },
+   "nombre": "Ramón Álvarez González",
+   "telefono": "84412121064",
+   "email": "",
+   "cumpleanos": "18/07/1980",
+   "nota": "",
+   "foto_url": "/fotos_socios/019_demo.png"
+  },
+  "20": {
+   "aportes": {
+    "1": 3059.09
+   },
+   "puntos": {
+    "1": 3972
+   },
+   "nombre": "Beatriz García Ramírez",
+   "telefono": "84450437074",
+   "email": "",
+   "cumpleanos": "16/08/1961",
+   "nota": "",
+   "foto_url": "/fotos_socios/020_demo.png"
+  },
+  "21": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Lourdes Castillo Torres",
+   "telefono": "47739929041",
+   "email": "",
+   "cumpleanos": "22/09/1998",
+   "nota": "",
+   "foto_url": "/fotos_socios/021_demo.png"
+  },
+  "22": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 12
+   },
+   "nombre": "Dolores Díaz Guerrero",
+   "telefono": "3385250071",
+   "email": "",
+   "cumpleanos": "01/02/1993",
+   "nota": "",
+   "foto_url": "/fotos_socios/022_demo.png"
+  },
+  "23": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Laura Rojas Salazar",
+   "telefono": "3357229378",
+   "email": "",
+   "cumpleanos": "23/08/1966",
+   "nota": "",
+   "foto_url": "/fotos_socios/023_demo.png"
+  },
+  "24": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Yolanda García Rodríguez",
+   "telefono": "87176748162",
+   "email": "",
+   "cumpleanos": "14/05/1984",
+   "nota": "",
+   "foto_url": "/fotos_socios/024_demo.png"
+  },
+  "25": {
+   "aportes": {
+    "1": 3122.95
+   },
+   "puntos": {
+    "1": 3286
+   },
+   "nombre": "Eduardo Guerrero Reyes",
+   "telefono": "3356824093",
+   "email": "",
+   "cumpleanos": "05/09/1966",
+   "nota": "",
+   "foto_url": "/fotos_socios/025_demo.png"
+  },
+  "26": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 41
+   },
+   "nombre": "Fernando Salazar Flores",
+   "telefono": "84437175035",
+   "email": "",
+   "cumpleanos": "02/02/1990",
+   "nota": "",
+   "foto_url": "/fotos_socios/026_demo.png"
+  },
+  "27": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Enrique Ortiz Sánchez",
+   "telefono": "99845909246",
+   "email": "",
+   "cumpleanos": "20/05/1985",
+   "nota": "",
+   "foto_url": "/fotos_socios/027_demo.png"
+  },
+  "28": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Elena Díaz Juárez",
+   "telefono": "84407807762",
+   "email": "",
+   "cumpleanos": "17/05/1996",
+   "nota": "",
+   "foto_url": "/fotos_socios/028_demo.png"
+  },
+  "29": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 105
+   },
+   "nombre": "Yolanda Juárez Romero",
+   "telefono": "99815406738",
+   "email": "",
+   "cumpleanos": "01/06/1979",
+   "nota": "",
+   "foto_url": "/fotos_socios/029_demo.png"
+  },
+  "30": {
+   "aportes": {
+    "1": 2029.24
+   },
+   "puntos": {
+    "1": 4336
+   },
+   "nombre": "Juan González Ríos",
+   "telefono": "61402699663",
+   "email": "",
+   "cumpleanos": "11/09/1996",
+   "nota": "",
+   "foto_url": "/fotos_socios/030_demo.png"
+  },
+  "31": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 41
+   },
+   "nombre": "Eduardo Moreno Gómez",
+   "telefono": "3379550402",
+   "email": "",
+   "cumpleanos": "02/03/1983",
+   "nota": "",
+   "foto_url": "/fotos_socios/031_demo.png"
+  },
+  "32": {
+   "aportes": {
+    "1": 13774.26
+   },
+   "puntos": {
+    "1": 4222
+   },
+   "nombre": "Verónica Navarro Ramírez",
+   "telefono": "66708478023",
+   "email": "",
+   "cumpleanos": "09/06/2002",
+   "nota": "",
+   "foto_url": "/fotos_socios/032_demo.png"
+  },
+  "33": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Manuel Cruz Romero",
+   "telefono": "3321584035",
+   "email": "",
+   "cumpleanos": "10/07/1963",
+   "nota": "",
+   "foto_url": "/fotos_socios/033_demo.png"
+  },
+  "34": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Josefina Vázquez Medina",
+   "telefono": "99897924201",
+   "email": "",
+   "cumpleanos": "09/05/1958",
+   "nota": "",
+   "foto_url": "/fotos_socios/034_demo.png"
+  },
+  "35": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Roberto Cabrera Castillo",
+   "telefono": "22200646142",
+   "email": "",
+   "cumpleanos": "24/09/1958",
+   "nota": "",
+   "foto_url": "/fotos_socios/035_demo.png"
+  },
+  "36": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Claudia Morales Mendoza",
+   "telefono": "84471190254",
+   "email": "",
+   "cumpleanos": "25/08/1958",
+   "nota": "",
+   "foto_url": "/fotos_socios/036_demo.png"
+  },
+  "37": {
+   "aportes": {
+    "1": 678.03
+   },
+   "puntos": {
+    "1": 2456
+   },
+   "nombre": "Patricia Navarro Moreno",
+   "telefono": "84401294242",
+   "email": "",
+   "cumpleanos": "13/03/1972",
+   "nota": "",
+   "foto_url": "/fotos_socios/037_demo.png"
+  },
+  "38": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 17
+   },
+   "nombre": "Ramón Cruz Mendoza",
+   "telefono": "84434106910",
+   "email": "",
+   "cumpleanos": "23/06/1999",
+   "nota": "",
+   "foto_url": "/fotos_socios/038_demo.png"
+  },
+  "39": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Gabriela Gutiérrez Castillo",
+   "telefono": "66754297153",
+   "email": "",
+   "cumpleanos": "03/09/1974",
+   "nota": "",
+   "foto_url": "/fotos_socios/039_demo.png"
+  },
+  "40": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Gerardo Reyes Ruiz",
+   "telefono": "8104198697",
+   "email": "",
+   "cumpleanos": "11/09/1972",
+   "nota": "",
+   "foto_url": "/fotos_socios/040_demo.png"
+  },
+  "41": {
+   "aportes": {
+    "1": 6028.96
+   },
+   "puntos": {
+    "1": 3644
+   },
+   "nombre": "Beatriz Vázquez Gutiérrez",
+   "telefono": "61486565688",
+   "email": "",
+   "cumpleanos": "23/02/1969",
+   "nota": "",
+   "foto_url": "/fotos_socios/041_demo.png"
+  },
+  "42": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Juan Martínez Cruz",
+   "telefono": "47724250832",
+   "email": "",
+   "cumpleanos": "05/04/1981",
+   "nota": "",
+   "foto_url": "/fotos_socios/042_demo.png"
+  },
+  "43": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 2715
+   },
+   "nombre": "Carlos Jiménez Rojas",
+   "telefono": "8167592904",
+   "email": "",
+   "cumpleanos": "08/02/1998",
+   "nota": "",
+   "foto_url": "/fotos_socios/043_demo.png"
+  },
+  "44": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 44
+   },
+   "nombre": "Enrique Sánchez García",
+   "telefono": "5541880279",
+   "email": "",
+   "cumpleanos": "14/12/1992",
+   "nota": "",
+   "foto_url": "/fotos_socios/044_demo.png"
+  },
+  "45": {
+   "aportes": {
+    "1": 1472.62
+   },
+   "puntos": {
+    "1": 2773
+   },
+   "nombre": "Patricia Díaz Ortiz",
+   "telefono": "66773667811",
+   "email": "",
+   "cumpleanos": "19/08/1995",
+   "nota": "",
+   "foto_url": "/fotos_socios/045_demo.png"
+  },
+  "46": {
+   "aportes": {
+    "1": 182.0
+   },
+   "puntos": {
+    "1": 595
+   },
+   "nombre": "Laura Álvarez García",
+   "telefono": "8124634273",
+   "email": "",
+   "cumpleanos": "18/07/2000",
+   "nota": "",
+   "foto_url": "/fotos_socios/046_demo.png"
+  },
+  "47": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 36
+   },
+   "nombre": "Antonio Sánchez Castillo",
+   "telefono": "47713589135",
+   "email": "",
+   "cumpleanos": "08/08/2005",
+   "nota": "",
+   "foto_url": "/fotos_socios/047_demo.png"
+  },
+  "48": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Alejandro Pérez Delgado",
+   "telefono": "3346195341",
+   "email": "",
+   "cumpleanos": "22/07/1959",
+   "nota": "",
+   "foto_url": "/fotos_socios/048_demo.png"
+  },
+  "49": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 673
+   },
+   "nombre": "Armando Medina Martínez",
+   "telefono": "8190425129",
+   "email": "",
+   "cumpleanos": "02/04/2002",
+   "nota": "",
+   "foto_url": "/fotos_socios/049_demo.png"
+  },
+  "50": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 165
+   },
+   "nombre": "Sergio Ríos Ortiz",
+   "telefono": "87190358826",
+   "email": "",
+   "cumpleanos": "18/12/1985",
+   "nota": "",
+   "foto_url": "/fotos_socios/050_demo.png"
+  },
+  "51": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 918
+   },
+   "nombre": "Ana Navarro Morales",
+   "telefono": "99813446292",
+   "email": "",
+   "cumpleanos": "28/05/1960",
+   "nota": "",
+   "foto_url": "/fotos_socios/051_demo.png"
+  },
+  "52": {
+   "aportes": {
+    "1": 612.0
+   },
+   "puntos": {
+    "1": 515
+   },
+   "nombre": "Elena Martínez González",
+   "telefono": "99899407760",
+   "email": "",
+   "cumpleanos": "18/08/1965",
+   "nota": "",
+   "foto_url": "/fotos_socios/052_demo.png"
+  },
+  "53": {
+   "aportes": {
+    "1": 372.0
+   },
+   "puntos": {
+    "1": 39
+   },
+   "nombre": "Josefina Guerrero Salazar",
+   "telefono": "61401889226",
+   "email": "",
+   "cumpleanos": "25/04/1962",
+   "nota": "",
+   "foto_url": "/fotos_socios/053_demo.png"
+  },
+  "54": {
+   "aportes": {
+    "1": 3483.31
+   },
+   "puntos": {
+    "1": 3678
+   },
+   "nombre": "Rosa Rodríguez Ruiz",
+   "telefono": "66777221090",
+   "email": "",
+   "cumpleanos": "07/04/2001",
+   "nota": "",
+   "foto_url": "/fotos_socios/054_demo.png"
+  },
+  "55": {
+   "aportes": {
+    "1": 1666.67
+   },
+   "puntos": {
+    "1": 1631
+   },
+   "nombre": "Fernando Ríos Álvarez",
+   "telefono": "84477762676",
+   "email": "",
+   "cumpleanos": "06/08/1979",
+   "nota": "",
+   "foto_url": "/fotos_socios/055_demo.png"
+  },
+  "56": {
+   "aportes": {
+    "1": 282.0
+   },
+   "puntos": {
+    "1": 403
+   },
+   "nombre": "María Sánchez Hernández",
+   "telefono": "5570605372",
+   "email": "",
+   "cumpleanos": "22/09/1989",
+   "nota": "",
+   "foto_url": "/fotos_socios/056_demo.png"
+  },
+  "57": {
+   "aportes": {
+    "1": 1578.0
+   },
+   "puntos": {
+    "1": 405
+   },
+   "nombre": "Enrique Mendoza Rodríguez",
+   "telefono": "87111890568",
+   "email": "",
+   "cumpleanos": "20/02/1989",
+   "nota": "",
+   "foto_url": "/fotos_socios/057_demo.png"
+  },
+  "58": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Rubén Vargas Gutiérrez",
+   "telefono": "5506799554",
+   "email": "",
+   "cumpleanos": "04/04/1991",
+   "nota": "",
+   "foto_url": "/fotos_socios/058_demo.png"
+  },
+  "59": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Alejandro Ramírez Sánchez",
+   "telefono": "84422656048",
+   "email": "",
+   "cumpleanos": "10/05/1966",
+   "nota": "",
+   "foto_url": "/fotos_socios/059_demo.png"
+  },
+  "60": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 34
+   },
+   "nombre": "Carmen Martínez Jiménez",
+   "telefono": "87152886207",
+   "email": "",
+   "cumpleanos": "06/02/1995",
+   "nota": "",
+   "foto_url": "/fotos_socios/060_demo.png"
+  },
+  "61": {
+   "aportes": {
+    "1": 2425.99
+   },
+   "puntos": {
+    "1": 2731
+   },
+   "nombre": "Teresa Delgado Cruz",
+   "telefono": "3333532219",
+   "email": "",
+   "cumpleanos": "19/01/1965",
+   "nota": "",
+   "foto_url": "/fotos_socios/061_demo.png"
+  },
+  "62": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 242
+   },
+   "nombre": "Juan Ríos Gutiérrez",
+   "telefono": "5553505292",
+   "email": "",
+   "cumpleanos": "22/05/1993",
+   "nota": "",
+   "foto_url": "/fotos_socios/062_demo.png"
+  },
+  "63": {
+   "aportes": {
+    "1": 1494.0
+   },
+   "puntos": {
+    "1": 365
+   },
+   "nombre": "Martha Rodríguez Salazar",
+   "telefono": "87118619390",
+   "email": "",
+   "cumpleanos": "09/04/1956",
+   "nota": "",
+   "foto_url": "/fotos_socios/063_demo.png"
+  },
+  "64": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Juan Campos Gómez",
+   "telefono": "47758918146",
+   "email": "",
+   "cumpleanos": "23/11/1972",
+   "nota": "",
+   "foto_url": "/fotos_socios/064_demo.png"
+  },
+  "65": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Martha Álvarez Rodríguez",
+   "telefono": "61497832642",
+   "email": "",
+   "cumpleanos": "07/04/1991",
+   "nota": "",
+   "foto_url": "/fotos_socios/065_demo.png"
+  },
+  "66": {
+   "aportes": {
+    "1": 312.0
+   },
+   "puntos": {
+    "1": 31
+   },
+   "nombre": "Martha Guerrero Pérez",
+   "telefono": "87109885321",
+   "email": "",
+   "cumpleanos": "28/04/1956",
+   "nota": "",
+   "foto_url": "/fotos_socios/066_demo.png"
+  },
+  "67": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 2843
+   },
+   "nombre": "Guadalupe Moreno Sánchez",
+   "telefono": "87192760027",
+   "email": "",
+   "cumpleanos": "19/08/1994",
+   "nota": "",
+   "foto_url": "/fotos_socios/067_demo.png"
+  },
+  "68": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 505
+   },
+   "nombre": "Alejandra Ríos López",
+   "telefono": "61433538369",
+   "email": "",
+   "cumpleanos": "17/09/1981",
+   "nota": "",
+   "foto_url": "/fotos_socios/068_demo.png"
+  },
+  "69": {
+   "aportes": {
+    "1": 412.5
+   },
+   "puntos": {
+    "1": 88
+   },
+   "nombre": "Laura Flores Hernández",
+   "telefono": "84461446296",
+   "email": "",
+   "cumpleanos": "02/09/2000",
+   "nota": "",
+   "foto_url": "/fotos_socios/069_demo.png"
+  },
+  "70": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 86
+   },
+   "nombre": "Margarita Sánchez Hernández",
+   "telefono": "47785765131",
+   "email": "",
+   "cumpleanos": "13/12/2003",
+   "nota": "",
+   "foto_url": "/fotos_socios/070_demo.png"
+  },
+  "71": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 227
+   },
+   "nombre": "Teresa Rodríguez Moreno",
+   "telefono": "22274556935",
+   "email": "",
+   "cumpleanos": "28/05/1981",
+   "nota": "",
+   "foto_url": "/fotos_socios/071_demo.png"
+  },
+  "72": {
+   "aportes": {
+    "1": 4737.5
+   },
+   "puntos": {
+    "1": 1125
+   },
+   "nombre": "Carlos Delgado Martínez",
+   "telefono": "22281737098",
+   "email": "",
+   "cumpleanos": "24/10/1998",
+   "nota": "",
+   "foto_url": "/fotos_socios/072_demo.png"
+  },
+  "73": {
+   "aportes": {
+    "1": 457.0
+   },
+   "puntos": {
+    "1": 643
+   },
+   "nombre": "Leticia Reyes Rojas",
+   "telefono": "47765131025",
+   "email": "",
+   "cumpleanos": "01/07/1982",
+   "nota": "",
+   "foto_url": "/fotos_socios/073_demo.png"
+  },
+  "74": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Fernando Castillo Moreno",
+   "telefono": "8107026090",
+   "email": "",
+   "cumpleanos": "14/07/1993",
+   "nota": "",
+   "foto_url": "/fotos_socios/074_demo.png"
+  },
+  "75": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 160
+   },
+   "nombre": "Carmen Gómez Morales",
+   "telefono": "66745821282",
+   "email": "",
+   "cumpleanos": "15/09/1990",
+   "nota": "",
+   "foto_url": "/fotos_socios/075_demo.png"
+  },
+  "76": {
+   "aportes": {
+    "1": 216.0
+   },
+   "puntos": {
+    "1": 375
+   },
+   "nombre": "Salvador García Mendoza",
+   "telefono": "84461964663",
+   "email": "",
+   "cumpleanos": "07/09/2002",
+   "nota": "",
+   "foto_url": "/fotos_socios/076_demo.png"
+  },
+  "77": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Lourdes Rodríguez Ramírez",
+   "telefono": "47719269788",
+   "email": "",
+   "cumpleanos": "01/03/1956",
+   "nota": "",
+   "foto_url": "/fotos_socios/077_demo.png"
+  },
+  "78": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Dolores Flores Navarro",
+   "telefono": "8102285993",
+   "email": "",
+   "cumpleanos": "22/03/1965",
+   "nota": "",
+   "foto_url": "/fotos_socios/078_demo.png"
+  },
+  "79": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 125
+   },
+   "nombre": "Carlos Navarro Hernández",
+   "telefono": "87153248043",
+   "email": "",
+   "cumpleanos": "06/10/1972",
+   "nota": "",
+   "foto_url": "/fotos_socios/079_demo.png"
+  },
+  "80": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 501
+   },
+   "nombre": "Jesús Jiménez Torres",
+   "telefono": "47700316832",
+   "email": "",
+   "cumpleanos": "18/06/1993",
+   "nota": "",
+   "foto_url": "/fotos_socios/080_demo.png"
+  },
+  "81": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Fernando Torres Gutiérrez",
+   "telefono": "5571087248",
+   "email": "",
+   "cumpleanos": "16/09/1956",
+   "nota": "",
+   "foto_url": "/fotos_socios/081_demo.png"
+  },
+  "82": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Ana Díaz Morales",
+   "telefono": "66743374343",
+   "email": "",
+   "cumpleanos": "28/05/1986",
+   "nota": "",
+   "foto_url": "/fotos_socios/082_demo.png"
+  },
+  "83": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Jorge Campos Gómez",
+   "telefono": "3372871438",
+   "email": "",
+   "cumpleanos": "15/06/1968",
+   "nota": "",
+   "foto_url": "/fotos_socios/083_demo.png"
+  },
+  "84": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 2283
+   },
+   "nombre": "Sandra Juárez Moreno",
+   "telefono": "8119762640",
+   "email": "",
+   "cumpleanos": "09/08/1966",
+   "nota": "",
+   "foto_url": "/fotos_socios/084_demo.png"
+  },
+  "85": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Ricardo Flores Rojas",
+   "telefono": "99892276695",
+   "email": "",
+   "cumpleanos": "03/04/1971",
+   "nota": "",
+   "foto_url": "/fotos_socios/085_demo.png"
+  },
+  "86": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Margarita Gómez Martínez",
+   "telefono": "5548936169",
+   "email": "",
+   "cumpleanos": "01/06/1983",
+   "nota": "",
+   "foto_url": "/fotos_socios/086_demo.png"
+  },
+  "87": {
+   "aportes": {
+    "1": 128.0
+   },
+   "puntos": {
+    "1": 46
+   },
+   "nombre": "Luis Delgado Mendoza",
+   "telefono": "99826029774",
+   "email": "",
+   "cumpleanos": "18/12/1977",
+   "nota": "",
+   "foto_url": "/fotos_socios/087_demo.png"
+  },
+  "88": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Jorge Vázquez Pérez",
+   "telefono": "47704978273",
+   "email": "",
+   "cumpleanos": "08/05/1988",
+   "nota": "",
+   "foto_url": "/fotos_socios/088_demo.png"
+  },
+  "89": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 232
+   },
+   "nombre": "Rosa García Medina",
+   "telefono": "3369856890",
+   "email": "",
+   "cumpleanos": "27/10/1984",
+   "nota": "",
+   "foto_url": "/fotos_socios/089_demo.png"
+  },
+  "90": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 303
+   },
+   "nombre": "Esperanza Ortiz Salazar",
+   "telefono": "5500281439",
+   "email": "",
+   "cumpleanos": "10/09/1976",
+   "nota": "",
+   "foto_url": "/fotos_socios/090_demo.png"
+  },
+  "91": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 2101
+   },
+   "nombre": "Gabriela Campos Salazar",
+   "telefono": "87141049593",
+   "email": "",
+   "cumpleanos": "13/05/1994",
+   "nota": "",
+   "foto_url": "/fotos_socios/091_demo.png"
+  },
+  "92": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Rubén Reyes Hernández",
+   "telefono": "87199634038",
+   "email": "",
+   "cumpleanos": "13/04/1982",
+   "nota": "",
+   "foto_url": "/fotos_socios/092_demo.png"
+  },
+  "93": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 21
+   },
+   "nombre": "María Gutiérrez González",
+   "telefono": "84431491041",
+   "email": "",
+   "cumpleanos": "13/01/2001",
+   "nota": "",
+   "foto_url": "/fotos_socios/093_demo.png"
+  },
+  "94": {
+   "aportes": {
+    "1": 1188.25
+   },
+   "puntos": {
+    "1": 3967
+   },
+   "nombre": "Carmen Salazar Martínez",
+   "telefono": "47751497791",
+   "email": "",
+   "cumpleanos": "21/07/1965",
+   "nota": "",
+   "foto_url": "/fotos_socios/094_demo.png"
+  },
+  "95": {
+   "aportes": {
+    "1": 3887.73
+   },
+   "puntos": {
+    "1": 1235
+   },
+   "nombre": "Óscar Martínez Ortiz",
+   "telefono": "3395899967",
+   "email": "",
+   "cumpleanos": "21/01/1969",
+   "nota": "",
+   "foto_url": "/fotos_socios/095_demo.png"
+  },
+  "96": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Pedro Juárez Vargas",
+   "telefono": "47789032181",
+   "email": "",
+   "cumpleanos": "08/05/1991",
+   "nota": "",
+   "foto_url": "/fotos_socios/096_demo.png"
+  },
+  "97": {
+   "aportes": {
+    "1": 927.0
+   },
+   "puntos": {
+    "1": 845
+   },
+   "nombre": "Silvia Moreno Morales",
+   "telefono": "8198725044",
+   "email": "",
+   "cumpleanos": "20/06/1957",
+   "nota": "",
+   "foto_url": "/fotos_socios/097_demo.png"
+  },
+  "98": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Claudia Jiménez Castillo",
+   "telefono": "61407678897",
+   "email": "",
+   "cumpleanos": "25/12/1977",
+   "nota": "",
+   "foto_url": "/fotos_socios/098_demo.png"
+  },
+  "99": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Jesús Gómez García",
+   "telefono": "66712588420",
+   "email": "",
+   "cumpleanos": "22/04/1991",
+   "nota": "",
+   "foto_url": "/fotos_socios/099_demo.png"
+  },
+  "100": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Irene García Navarro",
+   "telefono": "47774593062",
+   "email": "",
+   "cumpleanos": "25/11/1993",
+   "nota": "",
+   "foto_url": "/fotos_socios/100_demo.png"
+  },
+  "101": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Fernando López Díaz",
+   "telefono": "61438415625",
+   "email": "",
+   "cumpleanos": "28/06/1979",
+   "nota": "",
+   "foto_url": "/fotos_socios/101_demo.png"
+  },
+  "102": {
+   "aportes": {
+    "1": 30.0
+   },
+   "puntos": {
+    "1": 367
+   },
+   "nombre": "Martha Hernández Salazar",
+   "telefono": "66707099099",
+   "email": "",
+   "cumpleanos": "10/01/2004",
+   "nota": "",
+   "foto_url": "/fotos_socios/102_demo.png"
+  },
+  "103": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 565
+   },
+   "nombre": "Silvia Díaz Salazar",
+   "telefono": "84469091431",
+   "email": "",
+   "cumpleanos": "12/01/2002",
+   "nota": "",
+   "foto_url": "/fotos_socios/103_demo.png"
+  },
+  "104": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Irene Gómez Campos",
+   "telefono": "84412650261",
+   "email": "",
+   "cumpleanos": "28/02/1959",
+   "nota": "",
+   "foto_url": "/fotos_socios/104_demo.png"
+  },
+  "105": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Teresa Cruz Morales",
+   "telefono": "5549996368",
+   "email": "",
+   "cumpleanos": "05/03/1989",
+   "nota": "",
+   "foto_url": "/fotos_socios/105_demo.png"
+  },
+  "106": {
+   "aportes": {
+    "1": 548.0
+   },
+   "puntos": {
+    "1": 324
+   },
+   "nombre": "Teresa García Gutiérrez",
+   "telefono": "5537482261",
+   "email": "",
+   "cumpleanos": "05/04/1971",
+   "nota": "",
+   "foto_url": "/fotos_socios/106_demo.png"
+  },
+  "107": {
+   "aportes": {
+    "1": 319.0
+   },
+   "puntos": {
+    "1": 56
+   },
+   "nombre": "Jesús Díaz Ruiz",
+   "telefono": "84433184830",
+   "email": "",
+   "cumpleanos": "14/01/1994",
+   "nota": "",
+   "foto_url": "/fotos_socios/107_demo.png"
+  },
+  "108": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Alfredo Ramírez Moreno",
+   "telefono": "3310861121",
+   "email": "",
+   "cumpleanos": "13/06/2002",
+   "nota": "",
+   "foto_url": "/fotos_socios/108_demo.png"
+  },
+  "109": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 79
+   },
+   "nombre": "Fernando Hernández Salazar",
+   "telefono": "22262348054",
+   "email": "",
+   "cumpleanos": "07/06/1965",
+   "nota": "",
+   "foto_url": "/fotos_socios/109_demo.png"
+  },
+  "110": {
+   "aportes": {
+    "1": 2658.15
+   },
+   "puntos": {
+    "1": 3376
+   },
+   "nombre": "Rubén Delgado Ortiz",
+   "telefono": "22206519605",
+   "email": "",
+   "cumpleanos": "07/11/1972",
+   "nota": "",
+   "foto_url": "/fotos_socios/110_demo.png"
+  },
+  "111": {
+   "aportes": {
+    "1": 149.0
+   },
+   "puntos": {
+    "1": 446
+   },
+   "nombre": "Claudia Romero Mendoza",
+   "telefono": "8148427710",
+   "email": "",
+   "cumpleanos": "09/03/1999",
+   "nota": "",
+   "foto_url": "/fotos_socios/111_demo.png"
+  },
+  "112": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 61
+   },
+   "nombre": "Lourdes Mendoza Hernández",
+   "telefono": "5510722406",
+   "email": "",
+   "cumpleanos": "11/10/2004",
+   "nota": "",
+   "foto_url": "/fotos_socios/112_demo.png"
+  },
+  "113": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Elena Navarro Aguilar",
+   "telefono": "99877331637",
+   "email": "",
+   "cumpleanos": "12/04/1965",
+   "nota": "",
+   "foto_url": "/fotos_socios/113_demo.png"
+  },
+  "114": {
+   "aportes": {
+    "1": 378.18
+   },
+   "puntos": {
+    "1": 2394
+   },
+   "nombre": "Miguel Ríos Vargas",
+   "telefono": "66780336249",
+   "email": "",
+   "cumpleanos": "17/10/1992",
+   "nota": "",
+   "foto_url": "/fotos_socios/114_demo.png"
+  },
+  "115": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Salvador Reyes Reyes",
+   "telefono": "5591478163",
+   "email": "",
+   "cumpleanos": "18/05/1989",
+   "nota": "",
+   "foto_url": "/fotos_socios/115_demo.png"
+  },
+  "116": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 19
+   },
+   "nombre": "Antonio Pérez Cabrera",
+   "telefono": "22290915439",
+   "email": "",
+   "cumpleanos": "14/09/1958",
+   "nota": "",
+   "foto_url": "/fotos_socios/116_demo.png"
+  },
+  "117": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 85
+   },
+   "nombre": "Alfredo Ramírez Delgado",
+   "telefono": "47738027793",
+   "email": "",
+   "cumpleanos": "01/10/1989",
+   "nota": "",
+   "foto_url": "/fotos_socios/117_demo.png"
+  },
+  "118": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 44
+   },
+   "nombre": "María Álvarez Hernández",
+   "telefono": "47754619763",
+   "email": "",
+   "cumpleanos": "26/04/1957",
+   "nota": "",
+   "foto_url": "/fotos_socios/118_demo.png"
+  },
+  "119": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Alfredo Mendoza González",
+   "telefono": "84462054133",
+   "email": "",
+   "cumpleanos": "17/10/1986",
+   "nota": "",
+   "foto_url": "/fotos_socios/119_demo.png"
+  },
+  "120": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Raúl Álvarez Medina",
+   "telefono": "3348967678",
+   "email": "",
+   "cumpleanos": "22/11/1975",
+   "nota": "",
+   "foto_url": "/fotos_socios/120_demo.png"
+  },
+  "121": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Antonio Campos Juárez",
+   "telefono": "22244089656",
+   "email": "",
+   "cumpleanos": "04/01/1962",
+   "nota": "",
+   "foto_url": "/fotos_socios/121_demo.png"
+  },
+  "122": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Norma Cabrera Campos",
+   "telefono": "61400290552",
+   "email": "",
+   "cumpleanos": "25/02/1977",
+   "nota": "",
+   "foto_url": "/fotos_socios/122_demo.png"
+  },
+  "123": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 55
+   },
+   "nombre": "Alejandro Álvarez Ramírez",
+   "telefono": "47752402662",
+   "email": "",
+   "cumpleanos": "26/11/1967",
+   "nota": "",
+   "foto_url": "/fotos_socios/123_demo.png"
+  },
+  "124": {
+   "aportes": {
+    "1": 548.46
+   },
+   "puntos": {
+    "1": 2868
+   },
+   "nombre": "Fernando Romero Ortiz",
+   "telefono": "8191019371",
+   "email": "",
+   "cumpleanos": "08/11/1968",
+   "nota": "",
+   "foto_url": "/fotos_socios/124_demo.png"
+  },
+  "125": {
+   "aportes": {
+    "1": 95.5
+   },
+   "puntos": {
+    "1": 9
+   },
+   "nombre": "Claudia Reyes Vargas",
+   "telefono": "47794367284",
+   "email": "",
+   "cumpleanos": "07/01/1986",
+   "nota": "",
+   "foto_url": "/fotos_socios/125_demo.png"
+  },
+  "126": {
+   "aportes": {
+    "1": 247.5
+   },
+   "puntos": {
+    "1": 231
+   },
+   "nombre": "Laura Hernández Rodríguez",
+   "telefono": "87105135865",
+   "email": "",
+   "cumpleanos": "05/08/1960",
+   "nota": "",
+   "foto_url": "/fotos_socios/126_demo.png"
+  },
+  "127": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 95
+   },
+   "nombre": "Patricia Navarro Morales",
+   "telefono": "87135012616",
+   "email": "",
+   "cumpleanos": "24/03/1969",
+   "nota": "",
+   "foto_url": "/fotos_socios/127_demo.png"
+  },
+  "128": {
+   "aportes": {
+    "1": 1664.0
+   },
+   "puntos": {
+    "1": 385
+   },
+   "nombre": "Esperanza Ríos Martínez",
+   "telefono": "99887428121",
+   "email": "",
+   "cumpleanos": "05/09/1980",
+   "nota": "",
+   "foto_url": "/fotos_socios/128_demo.png"
+  },
+  "129": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 12
+   },
+   "nombre": "Carlos Moreno Delgado",
+   "telefono": "84487850476",
+   "email": "",
+   "cumpleanos": "24/07/1960",
+   "nota": "",
+   "foto_url": "/fotos_socios/129_demo.png"
+  },
+  "130": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 500
+   },
+   "nombre": "Patricia Martínez Cruz",
+   "telefono": "87195735153",
+   "email": "",
+   "cumpleanos": "24/01/2002",
+   "nota": "",
+   "foto_url": "/fotos_socios/130_demo.png"
+  },
+  "131": {
+   "aportes": {
+    "1": 2274.03
+   },
+   "puntos": {
+    "1": 1727
+   },
+   "nombre": "Francisco Ríos Castillo",
+   "telefono": "22214494984",
+   "email": "",
+   "cumpleanos": "25/07/1987",
+   "nota": "",
+   "foto_url": "/fotos_socios/131_demo.png"
+  },
+  "132": {
+   "aportes": {
+    "1": 1312.24
+   },
+   "puntos": {
+    "1": 2278
+   },
+   "nombre": "Guadalupe Ruiz Medina",
+   "telefono": "5580859839",
+   "email": "",
+   "cumpleanos": "21/06/2003",
+   "nota": "",
+   "foto_url": "/fotos_socios/132_demo.png"
+  },
+  "133": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Gabriela Mendoza Morales",
+   "telefono": "5576626347",
+   "email": "",
+   "cumpleanos": "27/01/1980",
+   "nota": "",
+   "foto_url": "/fotos_socios/133_demo.png"
+  },
+  "134": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 9
+   },
+   "nombre": "Luis Álvarez Ruiz",
+   "telefono": "47718692450",
+   "email": "",
+   "cumpleanos": "24/01/1975",
+   "nota": "",
+   "foto_url": "/fotos_socios/134_demo.png"
+  },
+  "135": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Pedro Medina Martínez",
+   "telefono": "99800414872",
+   "email": "",
+   "cumpleanos": "11/03/1964",
+   "nota": "",
+   "foto_url": "/fotos_socios/135_demo.png"
+  },
+  "136": {
+   "aportes": {
+    "1": 251.5
+   },
+   "puntos": {
+    "1": 25
+   },
+   "nombre": "María Salazar Moreno",
+   "telefono": "8148313267",
+   "email": "",
+   "cumpleanos": "10/03/1957",
+   "nota": "",
+   "foto_url": "/fotos_socios/136_demo.png"
+  },
+  "137": {
+   "aportes": {
+    "1": 744.5
+   },
+   "puntos": {
+    "1": 347
+   },
+   "nombre": "Juan Vázquez Sánchez",
+   "telefono": "5543698269",
+   "email": "",
+   "cumpleanos": "13/12/1984",
+   "nota": "",
+   "foto_url": "/fotos_socios/137_demo.png"
+  },
+  "138": {
+   "aportes": {
+    "1": 1929.01
+   },
+   "puntos": {
+    "1": 2338
+   },
+   "nombre": "Laura Morales Salazar",
+   "telefono": "5592804965",
+   "email": "",
+   "cumpleanos": "06/07/2002",
+   "nota": "",
+   "foto_url": "/fotos_socios/138_demo.png"
+  },
+  "139": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Norma Sánchez Sánchez",
+   "telefono": "22264772921",
+   "email": "",
+   "cumpleanos": "15/04/1955",
+   "nota": "",
+   "foto_url": "/fotos_socios/139_demo.png"
+  },
+  "140": {
+   "aportes": {
+    "1": 1853.18
+   },
+   "puntos": {
+    "1": 4256
+   },
+   "nombre": "Raúl Cruz Delgado",
+   "telefono": "8132751430",
+   "email": "",
+   "cumpleanos": "07/02/1974",
+   "nota": "",
+   "foto_url": "/fotos_socios/140_demo.png"
+  },
+  "141": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Lourdes Hernández Pérez",
+   "telefono": "61478717429",
+   "email": "",
+   "cumpleanos": "23/11/1984",
+   "nota": "",
+   "foto_url": "/fotos_socios/141_demo.png"
+  },
+  "142": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 52
+   },
+   "nombre": "Guadalupe Vargas Gutiérrez",
+   "telefono": "3377415270",
+   "email": "",
+   "cumpleanos": "23/03/1977",
+   "nota": "",
+   "foto_url": "/fotos_socios/142_demo.png"
+  },
+  "143": {
+   "aportes": {
+    "1": 436.0
+   },
+   "puntos": {
+    "1": 187
+   },
+   "nombre": "Armando Ramírez Flores",
+   "telefono": "47746604478",
+   "email": "",
+   "cumpleanos": "08/10/1966",
+   "nota": "",
+   "foto_url": "/fotos_socios/143_demo.png"
+  },
+  "144": {
+   "aportes": {
+    "1": 2015.5
+   },
+   "puntos": {
+    "1": 201
+   },
+   "nombre": "Antonio Medina Rojas",
+   "telefono": "87112659700",
+   "email": "",
+   "cumpleanos": "13/08/1974",
+   "nota": "",
+   "foto_url": "/fotos_socios/144_demo.png"
+  },
+  "145": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 9
+   },
+   "nombre": "Javier Vargas Navarro",
+   "telefono": "22250361373",
+   "email": "",
+   "cumpleanos": "15/12/2000",
+   "nota": "",
+   "foto_url": "/fotos_socios/145_demo.png"
+  },
+  "146": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Josefina Rodríguez Vargas",
+   "telefono": "84445146450",
+   "email": "",
+   "cumpleanos": "10/05/1991",
+   "nota": "",
+   "foto_url": "/fotos_socios/146_demo.png"
+  },
+  "147": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 436
+   },
+   "nombre": "Gabriela Ruiz Aguilar",
+   "telefono": "5594269535",
+   "email": "",
+   "cumpleanos": "02/03/2006",
+   "nota": "",
+   "foto_url": "/fotos_socios/147_demo.png"
+  },
+  "148": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 645
+   },
+   "nombre": "Jesús Gómez Morales",
+   "telefono": "47756817633",
+   "email": "",
+   "cumpleanos": "07/10/2001",
+   "nota": "",
+   "foto_url": "/fotos_socios/148_demo.png"
+  },
+  "149": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 909
+   },
+   "nombre": "Eduardo Mendoza Hernández",
+   "telefono": "87131769187",
+   "email": "",
+   "cumpleanos": "28/01/1990",
+   "nota": "",
+   "foto_url": "/fotos_socios/149_demo.png"
+  },
+  "150": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 863
+   },
+   "nombre": "Esperanza Rojas Gutiérrez",
+   "telefono": "99855052376",
+   "email": "",
+   "cumpleanos": "12/04/1992",
+   "nota": "",
+   "foto_url": "/fotos_socios/150_demo.png"
+  },
+  "151": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 36
+   },
+   "nombre": "Rubén Ruiz Navarro",
+   "telefono": "22206491755",
+   "email": "",
+   "cumpleanos": "22/02/1961",
+   "nota": "",
+   "foto_url": "/fotos_socios/151_demo.png"
+  },
+  "152": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Silvia Díaz Romero",
+   "telefono": "61467792508",
+   "email": "",
+   "cumpleanos": "23/08/2001",
+   "nota": "",
+   "foto_url": "/fotos_socios/152_demo.png"
+  },
+  "153": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Lourdes Cruz Juárez",
+   "telefono": "61422698146",
+   "email": "",
+   "cumpleanos": "15/07/1961",
+   "nota": "",
+   "foto_url": "/fotos_socios/153_demo.png"
+  },
+  "154": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Salvador Campos Navarro",
+   "telefono": "66732406804",
+   "email": "",
+   "cumpleanos": "23/01/2001",
+   "nota": "",
+   "foto_url": "/fotos_socios/154_demo.png"
+  },
+  "155": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Enrique González Moreno",
+   "telefono": "22235662993",
+   "email": "",
+   "cumpleanos": "01/01/1994",
+   "nota": "",
+   "foto_url": "/fotos_socios/155_demo.png"
+  },
+  "156": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 52
+   },
+   "nombre": "Beatriz Vázquez Castillo",
+   "telefono": "61492978283",
+   "email": "",
+   "cumpleanos": "01/06/2005",
+   "nota": "",
+   "foto_url": "/fotos_socios/156_demo.png"
+  },
+  "157": {
+   "aportes": {
+    "1": 2100.0
+   },
+   "puntos": {
+    "1": 784
+   },
+   "nombre": "Jorge Medina Delgado",
+   "telefono": "47726844058",
+   "email": "",
+   "cumpleanos": "06/09/1986",
+   "nota": "",
+   "foto_url": "/fotos_socios/157_demo.png"
+  },
+  "158": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 2632
+   },
+   "nombre": "Rocío Flores González",
+   "telefono": "61487188307",
+   "email": "",
+   "cumpleanos": "02/01/1978",
+   "nota": "",
+   "foto_url": "/fotos_socios/158_demo.png"
+  },
+  "159": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Beatriz Campos Flores",
+   "telefono": "8121247235",
+   "email": "",
+   "cumpleanos": "01/07/1983",
+   "nota": "",
+   "foto_url": "/fotos_socios/159_demo.png"
+  },
+  "160": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 2175
+   },
+   "nombre": "Teresa Navarro Romero",
+   "telefono": "84448306158",
+   "email": "",
+   "cumpleanos": "20/09/1992",
+   "nota": "",
+   "foto_url": "/fotos_socios/160_demo.png"
+  },
+  "161": {
+   "aportes": {
+    "1": 199.0
+   },
+   "puntos": {
+    "1": 588
+   },
+   "nombre": "Roberto Gutiérrez González",
+   "telefono": "99879421400",
+   "email": "",
+   "cumpleanos": "05/07/1969",
+   "nota": "",
+   "foto_url": "/fotos_socios/161_demo.png"
+  },
+  "162": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Teresa Salazar Flores",
+   "telefono": "5538610998",
+   "email": "",
+   "cumpleanos": "22/06/1980",
+   "nota": "",
+   "foto_url": "/fotos_socios/162_demo.png"
+  },
+  "163": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 950
+   },
+   "nombre": "Laura Sánchez Martínez",
+   "telefono": "22265777472",
+   "email": "",
+   "cumpleanos": "09/05/1961",
+   "nota": "",
+   "foto_url": "/fotos_socios/163_demo.png"
+  },
+  "164": {
+   "aportes": {
+    "1": 1235.52
+   },
+   "puntos": {
+    "1": 1517
+   },
+   "nombre": "Alicia Díaz Vázquez",
+   "telefono": "84477699846",
+   "email": "",
+   "cumpleanos": "10/11/1961",
+   "nota": "",
+   "foto_url": "/fotos_socios/164_demo.png"
+  },
+  "165": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Rosa Martínez Sánchez",
+   "telefono": "84422791050",
+   "email": "",
+   "cumpleanos": "06/09/1956",
+   "nota": "",
+   "foto_url": "/fotos_socios/165_demo.png"
+  },
+  "166": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 101
+   },
+   "nombre": "Norma Delgado González",
+   "telefono": "22291395752",
+   "email": "",
+   "cumpleanos": "27/02/1977",
+   "nota": "",
+   "foto_url": "/fotos_socios/166_demo.png"
+  },
+  "167": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Lourdes Gómez Navarro",
+   "telefono": "8125176229",
+   "email": "",
+   "cumpleanos": "23/11/1968",
+   "nota": "",
+   "foto_url": "/fotos_socios/167_demo.png"
+  },
+  "168": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Rosa Campos Torres",
+   "telefono": "8112358373",
+   "email": "",
+   "cumpleanos": "21/09/1999",
+   "nota": "",
+   "foto_url": "/fotos_socios/168_demo.png"
+  },
+  "169": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 18
+   },
+   "nombre": "Javier Mendoza Delgado",
+   "telefono": "61460799657",
+   "email": "",
+   "cumpleanos": "08/01/2003",
+   "nota": "",
+   "foto_url": "/fotos_socios/169_demo.png"
+  },
+  "170": {
+   "aportes": {
+    "1": 4177.8
+   },
+   "puntos": {
+    "1": 2825
+   },
+   "nombre": "Laura Reyes Campos",
+   "telefono": "61449424893",
+   "email": "",
+   "cumpleanos": "21/07/1956",
+   "nota": "",
+   "foto_url": "/fotos_socios/170_demo.png"
+  },
+  "171": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 710
+   },
+   "nombre": "Yolanda Rojas Pérez",
+   "telefono": "66792145511",
+   "email": "",
+   "cumpleanos": "14/02/2003",
+   "nota": "",
+   "foto_url": "/fotos_socios/171_demo.png"
+  },
+  "172": {
+   "aportes": {
+    "1": 554.89
+   },
+   "puntos": {
+    "1": 3013
+   },
+   "nombre": "Ignacio Reyes Gómez",
+   "telefono": "47769574173",
+   "email": "",
+   "cumpleanos": "10/09/1996",
+   "nota": "",
+   "foto_url": "/fotos_socios/172_demo.png"
+  },
+  "173": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 331
+   },
+   "nombre": "Carmen Martínez Vargas",
+   "telefono": "8173687299",
+   "email": "",
+   "cumpleanos": "01/07/1968",
+   "nota": "",
+   "foto_url": "/fotos_socios/173_demo.png"
+  },
+  "174": {
+   "aportes": {
+    "1": 1084.0
+   },
+   "puntos": {
+    "1": 239
+   },
+   "nombre": "Dolores González Guerrero",
+   "telefono": "87187287645",
+   "email": "",
+   "cumpleanos": "17/01/1976",
+   "nota": "",
+   "foto_url": "/fotos_socios/174_demo.png"
+  },
+  "175": {
+   "aportes": {
+    "1": 41.0
+   },
+   "puntos": {
+    "1": 127
+   },
+   "nombre": "Salvador Reyes Salazar",
+   "telefono": "22243164449",
+   "email": "",
+   "cumpleanos": "03/11/2002",
+   "nota": "",
+   "foto_url": "/fotos_socios/175_demo.png"
+  },
+  "176": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Eduardo Cruz Campos",
+   "telefono": "87163304517",
+   "email": "",
+   "cumpleanos": "27/11/2003",
+   "nota": "",
+   "foto_url": "/fotos_socios/176_demo.png"
+  },
+  "177": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 19
+   },
+   "nombre": "Guadalupe Reyes Torres",
+   "telefono": "66751036890",
+   "email": "",
+   "cumpleanos": "14/09/1999",
+   "nota": "",
+   "foto_url": "/fotos_socios/177_demo.png"
+  },
+  "178": {
+   "aportes": {
+    "1": 1277.1
+   },
+   "puntos": {
+    "1": 2855
+   },
+   "nombre": "Fernando Díaz Morales",
+   "telefono": "47713275438",
+   "email": "",
+   "cumpleanos": "18/08/1957",
+   "nota": "",
+   "foto_url": "/fotos_socios/178_demo.png"
+  },
+  "179": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Patricia Moreno Hernández",
+   "telefono": "99866019593",
+   "email": "",
+   "cumpleanos": "11/02/2004",
+   "nota": "",
+   "foto_url": "/fotos_socios/179_demo.png"
+  },
+  "180": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 1989
+   },
+   "nombre": "Javier Mendoza Gómez",
+   "telefono": "47746582413",
+   "email": "",
+   "cumpleanos": "26/09/1956",
+   "nota": "",
+   "foto_url": "/fotos_socios/180_demo.png"
+  },
+  "181": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Jorge Rojas González",
+   "telefono": "87123541953",
+   "email": "",
+   "cumpleanos": "21/06/1987",
+   "nota": "",
+   "foto_url": ""
+  },
+  "182": {
+   "aportes": {
+    "1": 4747.05
+   },
+   "puntos": {
+    "1": 3272
+   },
+   "nombre": "Laura García Gómez",
+   "telefono": "66764840547",
+   "email": "",
+   "cumpleanos": "10/03/1961",
+   "nota": "",
+   "foto_url": "/fotos_socios/182_demo.png"
+  },
+  "183": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Armando Ríos Moreno",
+   "telefono": "87109900904",
+   "email": "",
+   "cumpleanos": "24/10/1971",
+   "nota": "",
+   "foto_url": "/fotos_socios/183_demo.png"
+  },
+  "184": {
+   "aportes": {
+    "1": 447.5
+   },
+   "puntos": {
+    "1": 205
+   },
+   "nombre": "Jorge Álvarez Castillo",
+   "telefono": "8199639999",
+   "email": "",
+   "cumpleanos": "11/11/1967",
+   "nota": "",
+   "foto_url": "/fotos_socios/184_demo.png"
+  },
+  "185": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 102
+   },
+   "nombre": "Gabriela Vargas Rojas",
+   "telefono": "8152057637",
+   "email": "",
+   "cumpleanos": "25/12/1955",
+   "nota": "",
+   "foto_url": "/fotos_socios/185_demo.png"
+  },
+  "186": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Martha López Martínez",
+   "telefono": "47735622647",
+   "email": "",
+   "cumpleanos": "10/02/1965",
+   "nota": "",
+   "foto_url": "/fotos_socios/186_demo.png"
+  },
+  "187": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 14
+   },
+   "nombre": "Salvador Torres Guerrero",
+   "telefono": "8162169166",
+   "email": "",
+   "cumpleanos": "06/10/1958",
+   "nota": "",
+   "foto_url": "/fotos_socios/187_demo.png"
+  },
+  "188": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Ignacio Vázquez García",
+   "telefono": "87176572845",
+   "email": "",
+   "cumpleanos": "28/08/2000",
+   "nota": "",
+   "foto_url": "/fotos_socios/188_demo.png"
+  },
+  "189": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 5
+   },
+   "nombre": "Carlos Gómez Romero",
+   "telefono": "87179188103",
+   "email": "",
+   "cumpleanos": "09/04/1995",
+   "nota": "",
+   "foto_url": "/fotos_socios/189_demo.png"
+  },
+  "190": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 882
+   },
+   "nombre": "Ignacio Gutiérrez Torres",
+   "telefono": "22298687167",
+   "email": "",
+   "cumpleanos": "01/09/1978",
+   "nota": "",
+   "foto_url": "/fotos_socios/190_demo.png"
+  },
+  "191": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 312
+   },
+   "nombre": "Leticia Vargas Flores",
+   "telefono": "66750635065",
+   "email": "",
+   "cumpleanos": "23/01/1987",
+   "nota": "",
+   "foto_url": "/fotos_socios/191_demo.png"
+  },
+  "192": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 8
+   },
+   "nombre": "Rocío Cruz Romero",
+   "telefono": "66719052459",
+   "email": "",
+   "cumpleanos": "05/04/1977",
+   "nota": "",
+   "foto_url": "/fotos_socios/192_demo.png"
+  },
+  "193": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Salvador López Ramírez",
+   "telefono": "84499124777",
+   "email": "",
+   "cumpleanos": "22/08/1996",
+   "nota": "",
+   "foto_url": "/fotos_socios/193_demo.png"
+  },
+  "194": {
+   "aportes": {
+    "1": 2974.0
+   },
+   "puntos": {
+    "1": 1399
+   },
+   "nombre": "Martha García Díaz",
+   "telefono": "99851999498",
+   "email": "",
+   "cumpleanos": "23/09/1958",
+   "nota": "",
+   "foto_url": "/fotos_socios/194_demo.png"
+  },
+  "195": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 236
+   },
+   "nombre": "Guadalupe Delgado Ortiz",
+   "telefono": "87147147703",
+   "email": "",
+   "cumpleanos": "23/09/2006",
+   "nota": "",
+   "foto_url": "/fotos_socios/195_demo.png"
+  },
+  "196": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Sandra Cabrera Ramírez",
+   "telefono": "22217103476",
+   "email": "",
+   "cumpleanos": "21/05/1981",
+   "nota": "",
+   "foto_url": "/fotos_socios/196_demo.png"
+  },
+  "197": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 31
+   },
+   "nombre": "Fernando Ramírez Gutiérrez",
+   "telefono": "87164652366",
+   "email": "",
+   "cumpleanos": "18/06/1956",
+   "nota": "",
+   "foto_url": "/fotos_socios/197_demo.png"
+  },
+  "198": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 3370
+   },
+   "nombre": "Ana Rodríguez Ortiz",
+   "telefono": "87125129915",
+   "email": "",
+   "cumpleanos": "19/06/2002",
+   "nota": "",
+   "foto_url": "/fotos_socios/198_demo.png"
+  },
+  "199": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Rosa Mendoza Hernández",
+   "telefono": "8100751303",
+   "email": "",
+   "cumpleanos": "16/06/1969",
+   "nota": "",
+   "foto_url": "/fotos_socios/199_demo.png"
+  },
+  "200": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 89
+   },
+   "nombre": "Ignacio López Delgado",
+   "telefono": "61432443572",
+   "email": "",
+   "cumpleanos": "07/04/2002",
+   "nota": "",
+   "foto_url": "/fotos_socios/200_demo.png"
+  }
+ },
+ "actualizado": "2026-09-19 01:06:38"
 }
