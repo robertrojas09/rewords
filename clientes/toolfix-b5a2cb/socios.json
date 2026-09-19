@@ -4,7 +4,7 @@
  "socios": {
   "1": {
    "aportes": {
-    "1": 5412.0
+    "1": 11253.0
    },
    "puntos": {
     "1": 0
@@ -14,8 +14,10 @@
    "email": "jcarlos@gmail.com",
    "cumpleanos": "1987-08-28",
    "nota": "",
-   "foto_url": "/fotos_socios/001_055dc0f5410f.jpg"
+   "foto_url": "/fotos_socios/001_055dc0f5410f.jpg",
+   "desc_manual": "1",
+   "descuento_manual_pct": 2
   }
  },
- "actualizado": "2026-09-18 22:50:27"
+ "actualizado": "2026-09-18 23:08:29"
 }
