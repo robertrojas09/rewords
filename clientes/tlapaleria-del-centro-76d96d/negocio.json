@@ -1,11 +1,15 @@
 {
   "codigo_negocio": "MFNVW-WHSY6",
-  "nombre": "Tlapalería del Centro",
+  "nombre": "Renuevatec",
   "slug": "tlapaleria-del-centro-76d96d",
   "sucursales": [
     {
       "id": 1,
       "nombre": "Sucursal principal"
+    },
+    {
+      "id": 2,
+      "nombre": "Sucursal Centro"
     }
   ],
   "actualizado": "2026-09-19 06:50"
