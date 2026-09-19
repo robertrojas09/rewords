@@ -1,0 +1,12 @@
+{
+  "codigo_negocio": "DQP9F-3YWDV",
+  "nombre": "Tlapalería del Centro",
+  "slug": "tlapaleria-del-centro-e8ae47",
+  "sucursales": [
+    {
+      "id": 1,
+      "nombre": "Sucursal principal"
+    }
+  ],
+  "actualizado": "2026-09-19 00:10"
+}
