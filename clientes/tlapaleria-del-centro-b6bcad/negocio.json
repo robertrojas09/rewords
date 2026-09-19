@@ -1,0 +1,12 @@
+{
+  "codigo_negocio": "T59N5-WD2DV",
+  "nombre": "Tlapalería del Centro",
+  "slug": "tlapaleria-del-centro-b6bcad",
+  "sucursales": [
+    {
+      "id": 1,
+      "nombre": "Sucursal principal"
+    }
+  ],
+  "actualizado": "2026-09-18 20:14"
+}
