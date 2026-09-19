@@ -1,0 +1,12 @@
+{
+  "codigo_negocio": "CPXK9-9BYZ5",
+  "nombre": "Tlapalería del Centro",
+  "slug": "tlapaleria-del-centro-8ba421",
+  "sucursales": [
+    {
+      "id": 1,
+      "nombre": "Sucursal principal"
+    }
+  ],
+  "actualizado": "2026-09-19 01:32"
+}
