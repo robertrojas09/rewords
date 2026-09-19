@@ -1,0 +1,12 @@
+{
+  "codigo_negocio": "42FC9-RGGZ6",
+  "nombre": "Tlapalería del Centro",
+  "slug": "tlapaleria-del-centro-1d84d0",
+  "sucursales": [
+    {
+      "id": 1,
+      "nombre": "Sucursal principal"
+    }
+  ],
+  "actualizado": "2026-09-19 01:33"
+}
