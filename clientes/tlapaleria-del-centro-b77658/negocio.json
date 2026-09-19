@@ -1,11 +1,15 @@
 {
   "codigo_negocio": "D4K5C-8QA5S",
-  "nombre": "Tlapalería del Centro",
+  "nombre": "Renuevatec",
   "slug": "tlapaleria-del-centro-b77658",
   "sucursales": [
     {
       "id": 1,
       "nombre": "Sucursal principal"
+    },
+    {
+      "id": 2,
+      "nombre": "Sucursal Centro"
     }
   ],
   "actualizado": "2026-09-18 20:13"
