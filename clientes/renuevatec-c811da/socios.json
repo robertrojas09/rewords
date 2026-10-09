@@ -59,7 +59,21 @@
    "cumpleanos": "16/08/1995",
    "nota": "",
    "foto_url": "/fotos_socios/004_a38818dcfa06.jpg"
+  },
+  "5": {
+   "aportes": {
+    "1": 0.0
+   },
+   "puntos": {
+    "1": 0
+   },
+   "nombre": "Emanuel Rojas",
+   "telefono": "5527150785",
+   "email": "",
+   "cumpleanos": "22/02/1991",
+   "nota": "TURU",
+   "foto_url": "/fotos_socios/005_29d9451f8a11.jpg"
   }
  },
- "actualizado": "2026-10-08 20:50:43"
+ "actualizado": "2026-10-08 20:59:45"
 }
