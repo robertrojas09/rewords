@@ -87,7 +87,21 @@
    "cumpleanos": "13/09/1994",
    "nota": "",
    "foto_url": ""
+  },
+  "7": {
+   "aportes": {
+    "1": 1050.0
+   },
+   "puntos": {
+    "1": 105
+   },
+   "nombre": "Diancarlos Rojas",
+   "telefono": "5564983701",
+   "email": "",
+   "cumpleanos": "16/12/1995",
+   "nota": "",
+   "foto_url": "/fotos_socios/007_16de65cc56aa.jpg"
   }
  },
- "actualizado": "2026-10-10 00:58:43"
+ "actualizado": "2026-10-10 01:07:47"
 }
