@@ -1,14 +1,12 @@
 {
-  "version": "6.5",
+  "version": "6.6",
   "fecha": "22 de octubre de 2026",
-  "titulo": "El menú en cuadros, y el programa que no volvía a abrir",
+  "titulo": "Un candado para que cobrar no cambie sin que nadie lo note",
   "notas": [
-    "EL PROGRAMA NO SE VOLVIA A ABRIR DESPUES DE ACTUALIZARSE. Se cerraba para cambiarse a si mismo y ahi se quedaba, aunque la pantalla dijera «el programa se va a reabrir solo». El ayudante que lo reabria era una sola linea de comandos y en Windows eso falla siempre por el enredo de comillas. Ahora se deja un archivito que espera, abre el programa y se borra solo. Probado: se reabre a los cuatro segundos.",
-    "SE QUITO EL MENU DE LA IZQUIERDA. Estaba repitiendo lo mismo que los cuadros del centro, y con el se va el nombre del usuario que salia dos veces -abajo y arriba-. Ahora los cuadros son el unico menu, son mas grandes y cada uno trae su icono. Arriba a la izquierda hay un boton «Menus» para volver desde donde sea, y Salir y la version se subieron a la derecha.",
-    "MODO MAESTRO TAMBIEN EN CUADROS. Eran renglones en lista; ahora se ve igual que el resto del programa, con iconos dibujados en lugar de emojis -un emoji se ve distinto en cada computadora y no toma el color del tema-.",
-    "LA DESCARGA DE UNA ACTUALIZACION YA SE VE. Antes el boton decia «Bajando...» y se quedaba quieto dos minutos: con 45 MB por delante, una pantalla sin movimiento se ve igual que una colgada. Ahora hay una franja que recorre y los segundos van corriendo. No se inventa un porcentaje: el servidor no dice cuanto lleva, y fingir un numero seria mentir."
+    "LA FUNCION QUE COBRA SE PARTIO EN PIEZAS CON NOMBRE. Medía 406 renglones y ahora 351: salieron «a cuánto se le cobra a este socio» -la regla de que a un distribuidor le sale lo que MAS le convenga, su precio o su porcentaje, nunca los dos- y «lo que esta venta le deja al socio» -el acumulado, el nivel, sus puntos y los del que lo trajo-. Por fuera no cambia nada: se comprobó corriendo la misma tanda de ventas con el codigo de antes y el de despues, y lo que quedó en la base es idéntico letra por letra.",
+    "Y UNA PRUEBA QUE VIGILA QUE COBRAR NO CAMBIE. Corre catorce ventas que cubren los casos que se pisan entre ellos -socio con nivel, distribuidor con su precio, distribuidor al que le conviene más su porcentaje, precio por cantidad, referido que estrena- y compara TODO lo que dejaron. Si alguien mueve el cobro y cambia un centavo, se pone roja y dice qué renglón cambió."
   ],
-  "tamano": 47229660,
-  "sha256": "96d5ebf61d57828a14372d03cc6756d444b2f1dbbd9a437910663409cc2e9b70",
-  "url": "https://github.com/robertrojas09/rewords/releases/download/v6.5/Rewords_6.5.rwup"
+  "tamano": 47231669,
+  "sha256": "ce555907853e6791635aceaf4c1032310f3e2deeab7b7a2ccf8d01d40d49fb22",
+  "url": "https://github.com/robertrojas09/rewords/releases/download/v6.6/Rewords_6.6.rwup"
 }
