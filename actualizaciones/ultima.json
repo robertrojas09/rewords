@@ -1,12 +1,15 @@
 {
-  "version": "6.6",
+  "version": "6.7",
   "fecha": "22 de octubre de 2026",
-  "titulo": "Un candado para que cobrar no cambie sin que nadie lo note",
+  "titulo": "Cargar una actualización ya no tiene pierde, y cada menú con su color",
   "notas": [
-    "LA FUNCION QUE COBRA SE PARTIO EN PIEZAS CON NOMBRE. Medía 406 renglones y ahora 351: salieron «a cuánto se le cobra a este socio» -la regla de que a un distribuidor le sale lo que MAS le convenga, su precio o su porcentaje, nunca los dos- y «lo que esta venta le deja al socio» -el acumulado, el nivel, sus puntos y los del que lo trajo-. Por fuera no cambia nada: se comprobó corriendo la misma tanda de ventas con el codigo de antes y el de despues, y lo que quedó en la base es idéntico letra por letra.",
-    "Y UNA PRUEBA QUE VIGILA QUE COBRAR NO CAMBIE. Corre catorce ventas que cubren los casos que se pisan entre ellos -socio con nivel, distribuidor con su precio, distribuidor al que le conviene más su porcentaje, precio por cantidad, referido que estrena- y compara TODO lo que dejaron. Si alguien mueve el cobro y cambia un centavo, se pone roja y dice qué renglón cambió."
+    "EL ARCHIVO DE ACTUALIZACIÓN QUE SE ARRASTRA YA SE AGARRA. El recuadro punteado llevaba muchas versiones pareciendo que ahí se podía soltar el archivo, pero nadie lo recogía: la ventana se iba al archivo y acababa abriéndolo el explorador. Ahora se recoge, tanto si lo sueltas en el recuadro como si le atinas al lado. Y si sueltas algo que no es un .rwup, te lo dice en vez de irse.",
+    "Y SI AUN ASÍ NO LO ENCUENTRAS, PEGA LA RUTA. La ventana de Rewords no es un navegador: el botón de «Elegir archivo» abre en la carpeta del programa, donde no hay ningún .rwup, y más de uno concluyó que su archivo no estaba. Abajo del botón hay ahora un campo para pegar dónde está: en el Explorador, botón derecho sobre el archivo, «Copiar como ruta de acceso», y se pega ahí. Aguanta hasta las comillas que Windows le pone.",
+    "SE ARREGLÓ EL TÍTULO CORTADO DE ARRIBA. En pantallas como Modo maestro, el nombre del grupo salía cortado por arriba y el título colgaba por debajo de la línea: el botón de «Menús» se estaba apilando encima del título en vez de ponerse a su lado.",
+    "CADA MENÚ CON SU COLOR. Los catorce cuadros eran del mismo gris y había que leerlos todos cada vez. Ahora cada grupo tiene el suyo -Cobrar verde, Inventario ámbar, Clientes violeta- y las pantallas de adentro lo heredan, así que al entrar sigues sabiendo de dónde vienes. Un cuadro que abre un menú se distingue de uno que abre una pantalla.",
+    "LAS PRUEBAS YA NO CIERRAN EL REWORDS CON EL QUE ESTÁS TRABAJANDO. Al correr la batería de pruebas se cerraba cualquier Rewords abierto, incluido el del mostrador. Ahora sólo se cierran las copias de prueba, y hay una prueba que lo vigila."
   ],
-  "tamano": 47231669,
-  "sha256": "ce555907853e6791635aceaf4c1032310f3e2deeab7b7a2ccf8d01d40d49fb22",
-  "url": "https://github.com/robertrojas09/rewords/releases/download/v6.6/Rewords_6.6.rwup"
+  "tamano": 47234131,
+  "sha256": "4b91105636103748e1b159a16391c5df7c81bcfb16d44465970e9a3dff1da979",
+  "url": "https://github.com/robertrojas09/rewords/releases/download/v6.7/Rewords_6.7.rwup"
 }
