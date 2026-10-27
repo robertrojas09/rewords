@@ -1,22 +1,17 @@
 {
-  "version": "6.9",
-  "fecha": "26 de octubre de 2026",
-  "titulo": "Lo que faltaba de la limpieza anterior, encontrado revisándola",
+  "version": "7.0",
+  "fecha": "27 de octubre de 2026",
+  "titulo": "Que el cobro diga lo mismo por donde se le mire",
   "notas": [
-    "DEVOLVER YA REGRESA EL IMPUESTO. Si tu negocio lleva el IVA por fuera, una compra de $116 se devolvía en $100: los $16 del impuesto se quedaban en la caja y el cliente se iba con menos de lo que pagó. Y le sobrevivía un punto de los diez que había ganado.",
-    "LO EXENTO CON DESCUENTO YA CALCULA BIEN. Con un producto gravado y uno exento y un socio con descuento, se cobraba $192.80 donde iban $194.40: el exento se restaba a precio de lista de un total que ya traía rebaja.",
-    "DEVOLVER MERCANCÍA FIADA AHORA PAGA LA DEUDA. Antes te dejaba las dos cosas: saldo a favor Y la deuda entera por la misma venta, y ese saldo se podía gastar. Ahora lo devuelto baja primero lo que debe y sólo el sobrante le queda a favor.",
-    "PROMOCIÓN Y DESCUENTO DE SOCIO JUNTOS YA DEVUELVEN BIEN. Devolver el producto rebajado te sacaba $46.67 por algo que costó $50, y el otro devolvía de menos.",
-    "CANCELAR UNA VENTA PAGADA CON VALE YA LE DEVUELVE SU SALDO. Se reponía la mercancía y el vale se quedaba en cero: el cliente perdía su dinero.",
-    "CANCELAR YA NO RESUCITA CONSUMO DEVUELTO. Si un socio devolvía una compra y después le cancelabas otra, el recálculo revivía la devuelta y le podía regresar un nivel de descuento que ya no le tocaba.",
-    "LA MESA SUMA EL IVA Y GUARDA LO QUE COBRÓ. Una pieza de $100 costaba $116 en el mostrador y $100 en la mesa. Y los renglones guardaban el precio de lista aunque se hubiera cobrado el de distribuidor, así que devolver abonaba $90 a quien pagó $80.",
-    "PEDIR DOS VECES LO MISMO EN UNA MESA YA NO ROMPE LA DEVOLUCIÓN. Quedaban dos renglones y al devolver se daba por devuelta la mitad de la compra.",
-    "LA PANTALLA DE COBRO YA SÍ USA EL TOTAL BUENO. El arreglo de la versión pasada llegaba hasta el programa y el navegador lo tiraba: al distribuidor le seguía pidiendo el precio de lista.",
-    "UNA CANTIDAD IMPOSIBLE EN UNA DEVOLUCIÓN YA NO DEJA UN PRODUCTO SIN EXISTENCIA. Con una sola petición se podía borrar el inventario de un producto.",
-    "LA MISMA COTIZACIÓN YA NO SE PUEDE COBRAR DOS VECES al mismo tiempo. Dos cajas cobrándola a la vez descontaban mercancía dos veces.",
-    "EL NOMBRE DE UN PRODUCTO TAMPOCO METE CÓDIGO EN LAS MESAS NI EN LA PANTALLA DEL MESERO. La versión pasada tapó el carrito y los avisos; faltaban ésas y otras nueve pantallas."
+    "EL IMPUESTO YA SALE IGUAL EN LA PANTALLA, EN LA MESA Y EN LA CAJA. Con el IVA por fuera y una promoción que sólo rebaja a unos productos, la pantalla y la mesa pedían $162 donde el mostrador cobraba $158. Ahora el impuesto se saca producto por producto, no a ojo sobre el total.",
+    "LA VENTANA DE COBRAR YA NO ABRE CON UN NÚMERO A MEDIAS. Si le cambiabas la cantidad y dabas cobrar en el mismo segundo, te enseñaba $200 y la venta se registraba en $160. Ahora espera el total bueno, y si no llega te lo dice en vez de cobrar cualquier cosa.",
+    "DEVOLVER SÓLO UNA PARTE YA NO LE MUEVE MAL LOS PUNTOS AL SOCIO. Compraba uno gravado y uno exento, devolvía el exento, y su consumo quedaba en $107.41 donde iban $100: le sobraba un punto que no ganó.",
+    "CANCELAR LA VENTA DE UN APARTADO YA LE REGRESA SU APARTADO. Quedaba marcado como entregado, sin mercancía -que volvía al estante- y sin manera de recuperar lo que ya había abonado. Ahora vuelve a quedar abierto con su dinero a su nombre.",
+    "EL APARTADO YA COBRA EL IVA. Con el impuesto por fuera, apartar un producto de $100 pedía $100 y en el mostrador costaba $116: faltaban $16 que nadie volvía a cobrar nunca.",
+    "LOS CENTAVOS YA CUADRAN. Tres productos de $1.05 con un socio al 10% se cobraban en $2.84 y se guardaban como $2.85; al devolverlos salía un centavo de más.",
+    "DEVOLVER DE POQUITO EN POQUITO YA NO REGRESA DE MÁS. Tres piezas de $1 con un 3x2 se cobran $2, y devolviéndolas una por una se pagaban $2.01."
   ],
-  "tamano": 47256298,
-  "sha256": "9c86599e08b49e1f23a29ac680dbb5af0a6fe72c6e6789b7a642f8892aa053a7",
-  "url": "https://github.com/robertrojas09/rewords/releases/download/v6.9/Rewords_6.9.rwup"
+  "tamano": 47262918,
+  "sha256": "3b948cc70fef328909dbaf140672a10d2110517db0655f62db41bb319279bb82",
+  "url": "https://github.com/robertrojas09/rewords/releases/download/v7.0/Rewords_7.0.rwup"
 }
