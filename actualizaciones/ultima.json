@@ -1,17 +1,23 @@
 {
-  "version": "7.0",
+  "version": "7.1",
   "fecha": "27 de octubre de 2026",
-  "titulo": "Que el cobro diga lo mismo por donde se le mire",
+  "titulo": "Que el impuesto diga la verdad en los dos sentidos",
   "notas": [
-    "EL IMPUESTO YA SALE IGUAL EN LA PANTALLA, EN LA MESA Y EN LA CAJA. Con el IVA por fuera y una promoción que sólo rebaja a unos productos, la pantalla y la mesa pedían $162 donde el mostrador cobraba $158. Ahora el impuesto se saca producto por producto, no a ojo sobre el total.",
-    "LA VENTANA DE COBRAR YA NO ABRE CON UN NÚMERO A MEDIAS. Si le cambiabas la cantidad y dabas cobrar en el mismo segundo, te enseñaba $200 y la venta se registraba en $160. Ahora espera el total bueno, y si no llega te lo dice en vez de cobrar cualquier cosa.",
-    "DEVOLVER SÓLO UNA PARTE YA NO LE MUEVE MAL LOS PUNTOS AL SOCIO. Compraba uno gravado y uno exento, devolvía el exento, y su consumo quedaba en $107.41 donde iban $100: le sobraba un punto que no ganó.",
-    "CANCELAR LA VENTA DE UN APARTADO YA LE REGRESA SU APARTADO. Quedaba marcado como entregado, sin mercancía -que volvía al estante- y sin manera de recuperar lo que ya había abonado. Ahora vuelve a quedar abierto con su dinero a su nombre.",
-    "EL APARTADO YA COBRA EL IVA. Con el impuesto por fuera, apartar un producto de $100 pedía $100 y en el mostrador costaba $116: faltaban $16 que nadie volvía a cobrar nunca.",
-    "LOS CENTAVOS YA CUADRAN. Tres productos de $1.05 con un socio al 10% se cobraban en $2.84 y se guardaban como $2.85; al devolverlos salía un centavo de más.",
-    "DEVOLVER DE POQUITO EN POQUITO YA NO REGRESA DE MÁS. Tres piezas de $1 con un 3x2 se cobran $2, y devolviéndolas una por una se pagaban $2.01."
+    "SI LLEVAS EL IVA ADENTRO DEL PRECIO, DEVOLVER UNA PARTE YA NO PAGA DE MÁS. Vendías algo de $100 con el impuesto ya incluido y al devolverlo salían $113.79 del cajón: se le sumaba otra vez un impuesto que ya venía adentro. Y como el programa no deja pasarse del total de la venta, lo que se devolvía de más se le quitaba al siguiente producto: por un exento de $50 se pagaban $36.21.",
+    "PONER EL IVA EN CERO YA LO PONE EN CERO. Lo configurabas en 0%, la pantalla decía que se había guardado, y el programa seguía cobrando el 16%. Un negocio exento le pedía $269.12 al cliente por $232 de mercancía.",
+    "EL APARTADO COBRA EL MISMO IMPUESTO QUE EL MOSTRADOR. Apartar algo EXENTO pedía el impuesto igual: $58 por $50 de tortillas. Y al entregarlo, devolver esa venta regresaba $100 de los $116 que habías cobrado. Los puntos también contaban el impuesto: daba 11 donde van 10.",
+    "LA PANTALLA DE COBRAR Y LA MESA YA NO SE ADELANTAN. Las dos sacaban la cuenta con un beneficio que después se descartaba: la pantalla pedía $171.38 donde la caja cobraba $172.80, y la mesa le restaba a un distribuidor una promoción que ya no le tocaba.",
+    "CANCELAR LA VENTA DE UN APARTADO YA NO DUPLICA LA MERCANCÍA. La pieza volvía al estante Y el apartado quedaba abierto reservándola: de diez piezas salían once en cuanto cancelabas también el apartado. Y le quedaban abonados los $100 de la venta borrada en lugar de los $30 que de verdad había pagado.",
+    "CAMBIARLE LAS PIEZAS A UN COMBO YA NO TOCA LO QUE YA VENDISTE. Si le cambiabas la receta, devolver la venta de ayer -o quitar el renglón de una cuenta abierta- metía al estante una pieza que nunca salió y dejaba fuera la que sí.",
+    "DEVOLVER UNA COMPRA EN PARTES YA NO DEJA PUNTOS VIVOS. Con un producto gravado y otro exento en la misma venta, devolverla completa en dos vueltas revertía 19 de 20 puntos. Y cancelar otra venta del mismo socio le resucitaba consumo ya devuelto.",
+    "DEVOLVER DE A POQUITO YA NO SE QUEDA CON CENTAVOS DEL CLIENTE. Tres piezas de $0.50 con un 3x2 se cobran $1, y devueltas una por una se le regresaban $0.99.",
+    "EL TICKET YA EXPLICA BIEN DE DÓNDE SALIÓ EL TOTAL. Una promoción de $50 se imprimía como «-$42», y con el IVA adentro del precio el subtotal salía con el impuesto incluido: $100 de base, $13.79 de IVA y $100 de total. El cobro estaba bien; el papel no cuadraba.",
+    "REIMPRIMIR UN TICKET YA NO LE CAMBIA EL IMPUESTO. Si cambiabas de tasa, una venta vieja se reimprimía diciendo la tasa nueva con el importe viejo; y si apagabas el IVA, desaparecía el desglose de una venta que sí lo pagó.",
+    "LA COTIZACIÓN IMPRESA YA NO LE COBRA IVA A LO EXENTO. Cotizabas $100 de algo exento y la hoja pedía $116: el cliente llegaba con un papel que pedía más de lo que se le iba a cobrar.",
+    "EL TICKET DE UNA SUCURSAL YA NO SE VE DESDE LA OTRA. Un cajero podía teclear un número de folio y ver el ticket completo de la otra sucursal, con sus productos y su total. Los folios van seguidos, así que no había nada que adivinar.",
+    "UN ENGANCHE O UNA CANTIDAD QUE NO SON NÚMEROS YA SE RECHAZAN. Se podía crear un apartado con un enganche inválido: la mercancía salía del estante y el abono quedaba en blanco. Lo mismo con la cantidad de una cotización."
   ],
-  "tamano": 47262918,
-  "sha256": "3b948cc70fef328909dbaf140672a10d2110517db0655f62db41bb319279bb82",
-  "url": "https://github.com/robertrojas09/rewords/releases/download/v7.0/Rewords_7.0.rwup"
+  "tamano": 47274744,
+  "sha256": "d15de07524c090f15f7e361c37b4109a3421636efc6f6a3fb081c7382034d792",
+  "url": "https://github.com/robertrojas09/rewords/releases/download/v7.1/Rewords_7.1.rwup"
 }
