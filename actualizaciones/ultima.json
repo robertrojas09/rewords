@@ -1,23 +1,18 @@
 {
-  "version": "7.1",
+  "version": "7.2",
   "fecha": "27 de octubre de 2026",
-  "titulo": "Que el impuesto diga la verdad en los dos sentidos",
+  "titulo": "Que la pantalla pida exactamente lo que la caja cobra",
   "notas": [
-    "SI LLEVAS EL IVA ADENTRO DEL PRECIO, DEVOLVER UNA PARTE YA NO PAGA DE MÁS. Vendías algo de $100 con el impuesto ya incluido y al devolverlo salían $113.79 del cajón: se le sumaba otra vez un impuesto que ya venía adentro. Y como el programa no deja pasarse del total de la venta, lo que se devolvía de más se le quitaba al siguiente producto: por un exento de $50 se pagaban $36.21.",
-    "PONER EL IVA EN CERO YA LO PONE EN CERO. Lo configurabas en 0%, la pantalla decía que se había guardado, y el programa seguía cobrando el 16%. Un negocio exento le pedía $269.12 al cliente por $232 de mercancía.",
-    "EL APARTADO COBRA EL MISMO IMPUESTO QUE EL MOSTRADOR. Apartar algo EXENTO pedía el impuesto igual: $58 por $50 de tortillas. Y al entregarlo, devolver esa venta regresaba $100 de los $116 que habías cobrado. Los puntos también contaban el impuesto: daba 11 donde van 10.",
-    "LA PANTALLA DE COBRAR Y LA MESA YA NO SE ADELANTAN. Las dos sacaban la cuenta con un beneficio que después se descartaba: la pantalla pedía $171.38 donde la caja cobraba $172.80, y la mesa le restaba a un distribuidor una promoción que ya no le tocaba.",
-    "CANCELAR LA VENTA DE UN APARTADO YA NO DUPLICA LA MERCANCÍA. La pieza volvía al estante Y el apartado quedaba abierto reservándola: de diez piezas salían once en cuanto cancelabas también el apartado. Y le quedaban abonados los $100 de la venta borrada en lugar de los $30 que de verdad había pagado.",
-    "CAMBIARLE LAS PIEZAS A UN COMBO YA NO TOCA LO QUE YA VENDISTE. Si le cambiabas la receta, devolver la venta de ayer -o quitar el renglón de una cuenta abierta- metía al estante una pieza que nunca salió y dejaba fuera la que sí.",
-    "DEVOLVER UNA COMPRA EN PARTES YA NO DEJA PUNTOS VIVOS. Con un producto gravado y otro exento en la misma venta, devolverla completa en dos vueltas revertía 19 de 20 puntos. Y cancelar otra venta del mismo socio le resucitaba consumo ya devuelto.",
-    "DEVOLVER DE A POQUITO YA NO SE QUEDA CON CENTAVOS DEL CLIENTE. Tres piezas de $0.50 con un 3x2 se cobran $1, y devueltas una por una se le regresaban $0.99.",
-    "EL TICKET YA EXPLICA BIEN DE DÓNDE SALIÓ EL TOTAL. Una promoción de $50 se imprimía como «-$42», y con el IVA adentro del precio el subtotal salía con el impuesto incluido: $100 de base, $13.79 de IVA y $100 de total. El cobro estaba bien; el papel no cuadraba.",
-    "REIMPRIMIR UN TICKET YA NO LE CAMBIA EL IMPUESTO. Si cambiabas de tasa, una venta vieja se reimprimía diciendo la tasa nueva con el importe viejo; y si apagabas el IVA, desaparecía el desglose de una venta que sí lo pagó.",
-    "LA COTIZACIÓN IMPRESA YA NO LE COBRA IVA A LO EXENTO. Cotizabas $100 de algo exento y la hoja pedía $116: el cliente llegaba con un papel que pedía más de lo que se le iba a cobrar.",
-    "EL TICKET DE UNA SUCURSAL YA NO SE VE DESDE LA OTRA. Un cajero podía teclear un número de folio y ver el ticket completo de la otra sucursal, con sus productos y su total. Los folios van seguidos, así que no había nada que adivinar.",
-    "UN ENGANCHE O UNA CANTIDAD QUE NO SON NÚMEROS YA SE RECHAZAN. Se podía crear un apartado con un enganche inválido: la mercancía salía del estante y el abono quedaba en blanco. Lo mismo con la cantidad de una cotización."
+    "CON MÁS DE 60 PRODUCTOS, LA VENTANA PEDÍA MENOS DE LO QUE SE COBRABA. La pantalla sacaba el total mirando nada más los primeros 60 renglones del carrito y la caja cobraba todos: con 61 productos de $1, la ventana de confirmar decía $60 y la venta quedaba en $61. Ahora, si el carrito es más largo de lo que alcanza a calcular, el programa avisa en vez de enseñar un número incompleto.",
+    "LA VENTANA DE CERRAR UNA CUENTA YA PIDE EL TOTAL CON IMPUESTO. Enseñaba la suma de los precios con que se apuntó cada cosa, antes de descuentos y antes del IVA: decía $100 y se registraban $116. Es el número que el cajero lee en voz alta, así que tenía que ser el bueno.",
+    "CERRAR UNA MESA CON TARJETA YA NO ANOTA LA PROPINA COMO EFECTIVO. Se guardaba como efectivo siempre, así que el corte esperaba en el cajón un dinero que había entrado por la terminal.",
+    "LOS CENTAVOS DE UNA VENTA MUY REPARTIDA YA NO DEJAN UN RENGLÓN EN NEGATIVO. Con doce productos de un centavo y un descuento a la mitad, al último renglón le tocaban menos cinco centavos y un impuesto negativo que además bajaba el cobro.",
+    "EL TICKET YA DICE LA TASA QUE SE COBRÓ. En una venta con algo gravado y algo exento imprimía «IVA 8%» junto al importe correcto, porque repartía el impuesto entre toda la venta en vez de entre lo que sí lo paga.",
+    "UNA VENTA HECHA SIN IVA YA NO GANA IMPUESTO AL REIMPRIMIRLA. Si después encendías el IVA, el ticket de una venta vieja de $100 salía con $13.79 de un impuesto que nadie cobró nunca.",
+    "LA COTIZACIÓN IMPRESA Y LA CAJA YA REDONDEAN IGUAL. La hoja pedía $23.27 donde la caja cobraba $23.26.",
+    "UNA CANTIDAD ENORME EN UNA COTIZACIÓN YA SE RECHAZA. Se podía guardar una cotización con el total desbordado, que después no cuadra con nada."
   ],
-  "tamano": 47274744,
-  "sha256": "d15de07524c090f15f7e361c37b4109a3421636efc6f6a3fb081c7382034d792",
-  "url": "https://github.com/robertrojas09/rewords/releases/download/v7.1/Rewords_7.1.rwup"
+  "tamano": 47275384,
+  "sha256": "8fb1c2ab8e85f8ccb4a4ab43c0122b7c5f4c64b4ab9fecb284073dd47dca51b3",
+  "url": "https://github.com/robertrojas09/rewords/releases/download/v7.2/Rewords_7.2.rwup"
 }
