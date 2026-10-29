@@ -1,18 +1,18 @@
 {
-  "version": "7.2",
-  "fecha": "27 de octubre de 2026",
-  "titulo": "Que la pantalla pida exactamente lo que la caja cobra",
+  "version": "7.3",
+  "fecha": "29 de octubre de 2026",
+  "titulo": "Que cada quien acomode su pantalla y pague lo suyo",
   "notas": [
-    "CON MÁS DE 60 PRODUCTOS, LA VENTANA PEDÍA MENOS DE LO QUE SE COBRABA. La pantalla sacaba el total mirando nada más los primeros 60 renglones del carrito y la caja cobraba todos: con 61 productos de $1, la ventana de confirmar decía $60 y la venta quedaba en $61. Ahora, si el carrito es más largo de lo que alcanza a calcular, el programa avisa en vez de enseñar un número incompleto.",
-    "LA VENTANA DE CERRAR UNA CUENTA YA PIDE EL TOTAL CON IMPUESTO. Enseñaba la suma de los precios con que se apuntó cada cosa, antes de descuentos y antes del IVA: decía $100 y se registraban $116. Es el número que el cajero lee en voz alta, así que tenía que ser el bueno.",
-    "CERRAR UNA MESA CON TARJETA YA NO ANOTA LA PROPINA COMO EFECTIVO. Se guardaba como efectivo siempre, así que el corte esperaba en el cajón un dinero que había entrado por la terminal.",
-    "LOS CENTAVOS DE UNA VENTA MUY REPARTIDA YA NO DEJAN UN RENGLÓN EN NEGATIVO. Con doce productos de un centavo y un descuento a la mitad, al último renglón le tocaban menos cinco centavos y un impuesto negativo que además bajaba el cobro.",
-    "EL TICKET YA DICE LA TASA QUE SE COBRÓ. En una venta con algo gravado y algo exento imprimía «IVA 8%» junto al importe correcto, porque repartía el impuesto entre toda la venta en vez de entre lo que sí lo paga.",
-    "UNA VENTA HECHA SIN IVA YA NO GANA IMPUESTO AL REIMPRIMIRLA. Si después encendías el IVA, el ticket de una venta vieja de $100 salía con $13.79 de un impuesto que nadie cobró nunca.",
-    "LA COTIZACIÓN IMPRESA Y LA CAJA YA REDONDEAN IGUAL. La hoja pedía $23.27 donde la caja cobraba $23.26.",
-    "UNA CANTIDAD ENORME EN UNA COTIZACIÓN YA SE RECHAZA. Se podía guardar una cotización con el total desbordado, que después no cuadra con nada."
+    "AHORA PUEDES ELEGIR CÓMO SE VE EL PROGRAMA. En Apariencia hay dos formas: la de cuadros, que es la que ya conocías, y la de lista, con el menú de lado como en las versiones de antes. Cambia todo el programa, no nada más una pantalla, y las dos trabajan igual. Hay quien busca más rápido con cuadros grandes y quien prefiere su menú siempre a la vista; ahora no tiene que aguantarse.",
+    "TRES APARIENCIAS NUEVAS DE VIDRIO. Las pantallas se ven translúcidas, con luz de fondo. Están en el mismo lugar donde escoges los colores, y si usas un color tuyo también se le puede poner ese acabado.",
+    "YA SE PUEDE PARTIR LA CUENTA ENTRE VARIAS PERSONAS. En la ventana de cerrar una mesa sale el botón «Partir la cuenta entre varios»: pones cuánta gente es y cada quien escoge de la lista qué se va a pagar y con qué. Queda UNA sola venta, con el reparto apuntado adentro, y el ticket dice quién puso qué. Sale solo en negocios de bar y restaurante, que es para quienes es; en una tlapalería sería un botón que estorba.",
+    "UNA COTIZACIÓN CON EL MISMO PRODUCTO EN DOS RENGLONES YA NO PROMETE UN PRECIO Y COBRA OTRO. Si además había algo exento, la hoja podía pedir $324 donde la caja cobraba $332. El cliente llegaba con un papel ocho pesos menor al cobro.",
+    "SI FALLA LA CONSULTA AL VINCULAR UN SOCIO, LA MESA YA NO SE COBRA. Al abrir la ventana sí se detenía, pero un minuto después no: vinculabas un socio, se caía la consulta del descuento y la cuenta se cerraba con un total que nadie confirmó.",
+    "EL NOMBRE DE UNA MESA YA NO PUEDE METER CÓDIGO. Se pintaba tal cual en la ventana de cerrar cuenta, así que un nombre preparado corría con la sesión de quien abriera esa ventana, y para crear mesas no hace falta ser el dueño.",
+    "EL CAMBIO YA NO PIDE LO QUE EL CLIENTE ACABA DE FIAR. En una venta de $100 con $60 fiados y $50 recibidos, la pantalla y el ticket decían «cambio: menos $50». Son $10, y es el número que el cajero lee en voz alta y le entrega al cliente.",
+    "EL TICKET YA NO SE INVENTA LA TASA DEL IMPUESTO. La sacaba dividiendo el impuesto entre la base ya redondeada, y en una venta de $10.03 imprimía «IVA 15.95%». El importe siempre estuvo bien; lo que mentía era la etiqueta. Ahora cada venta guarda la tasa con la que se cobró y el ticket imprime esa, igual en el mostrador que al cerrar una mesa."
   ],
-  "tamano": 47275384,
-  "sha256": "8fb1c2ab8e85f8ccb4a4ab43c0122b7c5f4c64b4ab9fecb284073dd47dca51b3",
-  "url": "https://github.com/robertrojas09/rewords/releases/download/v7.2/Rewords_7.2.rwup"
+  "tamano": 47290604,
+  "sha256": "fa0e3bdcdc1328a5bc047c004eef6ca6a8926ca9b764bbbe5b9e1dd2e4d0f354",
+  "url": "https://github.com/robertrojas09/rewords/releases/download/v7.3/Rewords_7.3.rwup"
 }
