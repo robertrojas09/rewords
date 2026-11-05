@@ -1,12 +1,17 @@
 {
-  "version": "7.8",
+  "version": "7.9",
   "fecha": "4 de noviembre de 2026",
-  "titulo": "Que nunca se quede pensando",
+  "titulo": "Que se vea lo que acabas de hacer",
   "notas": [
-    "DOS PANTALLAS SE PODÍAN QUEDAR COLGADAS PARA SIEMPRE. Las que comparan lo que tienes publicado contra tus clientes le preguntan a GitHub, y esas dos preguntas salían SIN tiempo límite: si GitHub no contestaba -porque se cayó, o porque tu internet se puso lento- la pantalla se quedaba pensando, sin aviso y sin manera de salir, y lo único que quedaba era cerrar el programa. Las otras once preguntas que el programa le hace a GitHub sí lo tenían. Ahora las trece se rinden a los ocho segundos y te dicen qué pasó.",
-    "Y EL PROGRAMA YA DICE PARA QUÉ USA CADA COSA. El resumen con el que nota si cambiaron tus socios antes de sincronizar no es una firma, es una huella para comparar; ahora está dicho así en el código. No cambia ni un número: sirve para que un revisor de seguridad no lo confunda con una firma débil, y para que el programa no truene en computadoras configuradas en modo estricto."
+    "CAMBIARLE EL COLOR A LA TARJETA DE UN SOCIO LE BORRABA LA FOTO. Y también su cumpleaños. La tarjeta se volvía a subir sin ellos y salía con el círculo de iniciales, como si el socio nunca hubiera tenido foto. Pasaba igual al guardarle su promoción propia. Si te pasó, vuelve a publicar esa tarjeta y la foto regresa: nunca se borró de tu programa, solo dejaba de viajar.",
+    "LA VISTA PREVIA DE LAS TARJETAS ENSEÑABA INTERNET, NO TU PROGRAMA. Era la página pública de GitHub, que tarda minutos en enterarse de un cambio. Cambiabas un color, mirabas la pantalla, veías lo de antes y parecía que no se había guardado. Ahora la previa la arma tu programa con lo que tienes guardado y se ve al instante. Y se ve aunque la tarjeta todavía no esté publicada: puedes dejarle el color, la foto y el subtítulo como los quieres ANTES de subir nada.",
+    "EL EFECTO DE CRISTAL YA FUNCIONA CON CUALQUIER COLOR. Venía pegado a tres temas, así que escoger el color de tu negocio significaba perder el efecto. Ahora es un interruptor aparte, arriba de los colores en Apariencia, y vale con los veinticuatro.",
+    "UN COLOR AL AZAR PARA TODAS LAS TARJETAS. Escoger en un cuadrito de colores es trabajo, y casi siempre lo que uno quiere no es un color exacto sino ver otro. Tíralo las veces que quieras -se ve al momento en la previa- y cuando te guste, aplícalo a todas.",
+    "LOS REPORTES IMPRESOS YA TRAEN GRÁFICAS. Arriba de la tabla: los totales en grande, cómo vino cada día y los diez que más pesan. Nadie lee trescientos renglones; lo que se busca al recibir una hoja es de qué tamaño es la cosa y de dónde sale. Se dibujan solas con las columnas de cada reporte, así que valen para los nueve.",
+    "VOLVIÓ EL LOGO DE TU NEGOCIO, con su animación. Vivía en la barra de la izquierda, y la vista de cuadros esconde esa barra: se fue el menú y se fue el logo con él. Ahora está arriba a la izquierda y se ve en todas las pantallas.",
+    "LAS IMÁGENES DE LOS SERVICIOS YA NO SALEN RECORTADAS. El cuadro del catálogo es casi tres veces más ancho que alto y las imágenes se dibujaban cuadradas, así que se veía una franja de en medio: de un monitor quedaba la pantalla sin base. Ahora se dibujan a la medida del cuadro y entran completas."
   ],
-  "tamano": 47886413,
-  "sha256": "300de5bec0c6db19dc29c0ce2afa88fe7e369e1a0d695cbc9db873b3d1480bac",
-  "url": "https://github.com/robertrojas09/rewords/releases/download/v7.8/Rewords_7.8.rwup"
+  "tamano": 47904085,
+  "sha256": "2b5b4bdc737fda7a19e296126cb9f9ef59fb77ef10a200b6ac0f40fc3640b600",
+  "url": "https://github.com/robertrojas09/rewords/releases/download/v7.9/Rewords_7.9.rwup"
 }
