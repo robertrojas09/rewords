@@ -1,17 +1,18 @@
 {
-  "version": "7.9",
-  "fecha": "4 de noviembre de 2026",
-  "titulo": "Que se vea lo que acabas de hacer",
+  "version": "7.10",
+  "fecha": "5 de noviembre de 2026",
+  "titulo": "Que los números digan la verdad",
   "notas": [
-    "CAMBIARLE EL COLOR A LA TARJETA DE UN SOCIO LE BORRABA LA FOTO. Y también su cumpleaños. La tarjeta se volvía a subir sin ellos y salía con el círculo de iniciales, como si el socio nunca hubiera tenido foto. Pasaba igual al guardarle su promoción propia. Si te pasó, vuelve a publicar esa tarjeta y la foto regresa: nunca se borró de tu programa, solo dejaba de viajar.",
-    "LA VISTA PREVIA DE LAS TARJETAS ENSEÑABA INTERNET, NO TU PROGRAMA. Era la página pública de GitHub, que tarda minutos en enterarse de un cambio. Cambiabas un color, mirabas la pantalla, veías lo de antes y parecía que no se había guardado. Ahora la previa la arma tu programa con lo que tienes guardado y se ve al instante. Y se ve aunque la tarjeta todavía no esté publicada: puedes dejarle el color, la foto y el subtítulo como los quieres ANTES de subir nada.",
-    "EL EFECTO DE CRISTAL YA FUNCIONA CON CUALQUIER COLOR. Venía pegado a tres temas, así que escoger el color de tu negocio significaba perder el efecto. Ahora es un interruptor aparte, arriba de los colores en Apariencia, y vale con los veinticuatro.",
-    "UN COLOR AL AZAR PARA TODAS LAS TARJETAS. Escoger en un cuadrito de colores es trabajo, y casi siempre lo que uno quiere no es un color exacto sino ver otro. Tíralo las veces que quieras -se ve al momento en la previa- y cuando te guste, aplícalo a todas.",
-    "LOS REPORTES IMPRESOS YA TRAEN GRÁFICAS. Arriba de la tabla: los totales en grande, cómo vino cada día y los diez que más pesan. Nadie lee trescientos renglones; lo que se busca al recibir una hoja es de qué tamaño es la cosa y de dónde sale. Se dibujan solas con las columnas de cada reporte, así que valen para los nueve.",
-    "VOLVIÓ EL LOGO DE TU NEGOCIO, con su animación. Vivía en la barra de la izquierda, y la vista de cuadros esconde esa barra: se fue el menú y se fue el logo con él. Ahora está arriba a la izquierda y se ve en todas las pantallas.",
-    "LAS IMÁGENES DE LOS SERVICIOS YA NO SALEN RECORTADAS. El cuadro del catálogo es casi tres veces más ancho que alto y las imágenes se dibujaban cuadradas, así que se veía una franja de en medio: de un monitor quedaba la pantalla sin base. Ahora se dibujan a la medida del cuadro y entran completas."
+    "EL CORTE DEL DÍA NO DECÍA CUÁNTO EFECTIVO HABÍA EN EL CAJÓN. Cuando una venta se cobraba con dos formas de pago -tantito en efectivo y el resto con tarjeta- el corte la metía completa en un renglón que decía «mixto», sin separar cuánto fue de cada cosa. Una venta de $1,000 pagada con $400 en efectivo y $600 con tarjeta dejaba el papel diciendo «efectivo $500» cuando en el cajón había $900. Si tu cajero te ha salido sobrando dinero sin explicación, era esto. El corte por turno siempre estuvo bien: el que fallaba era el del día, que es el que se imprime y se engrapa al sobre.",
+    "LO QUE DEVOLVÍAS EN EFECTIVO NO SE RESTABA DEL DÍA. Desde la versión pasada una devolución puede regresar dinero en billetes. Ese dinero sale del cajón, pero el corte del día ni lo restaba ni lo decía: lo apuntaba junto con lo que quedó a favor, bajo una etiqueta que decía «a monedero». El cajero devolvía $200 y a la noche le faltaban $200 que nadie se llevó. Ahora el papel trae los dos renglones aparte y el efectivo del día ya con la resta hecha.",
+    "LO QUE VENDÍAS EN UNA MESA O EN UN APARTADO NO SE APUNTABA EN «TRABAJOS POR HACER». Solo lo del mostrador. Si cobraste un servicio en una mesa, o entregaste un apartado de un trabajo, se cobró y nadie se acordó de hacerlo. Revisa tus apartados entregados de estos meses: los que eran servicio no están en esa pantalla, y hay que meterlos a mano.",
+    "LA ROTACIÓN DE MESAS CONTABA VENTAS DE MOSTRADOR. El reporte que dice cuánto se queda ocupada una mesa estaba promediando también los minutos de los servicios vendidos en la caja. En un taller sin una sola mesa dada de alta llegaba a contestar «2 mesas, promedio 165 minutos». Si ese número nunca te cuadró con lo que ves, no eran tus mesas.",
+    "LA PANTALLA DE HISTORIAL YA NO SE TRAE TODAS TUS VENTAS DE UN JALÓN. Traía TODAS, desde la primera, cada vez que la abrías: con dos años de uso son trece megas en cada clic, y el programa se iba poniendo lento solo, sin que se pudiera decir desde cuándo. Ahora trae las 500 más recientes, te avisa cuando hay más y tiene un botón para traerlas. Para buscar una venta vieja, escribe el nombre del socio: eso no cambió.",
+    "UN APARTADO GUARDABA IVA AUNQUE LO TUVIERAS APAGADO. No salía impreso en ningún lado, así que no te costó nada; quedaba escrito en la base esperando a que alguien lo leyera. Ya no.",
+    "LA SESIÓN AHORA DICE SUS PROPIAS REGLAS. El programa escucha en toda la red del negocio, porque los meseros entran desde su teléfono. Hasta hoy, que una página ajena pudiera colarse usando la sesión de un mesero dependía de lo que ese teléfono trajera de fábrica. Ahora lo decide el programa y no el navegador.",
+    "LA PANTALLA QUE VE EL CLIENTE YA NO SE ATORA CON UN DATO MAL FORMADO. Si la caja le mandaba algo con la forma equivocada, la pantalla se quedaba enseñando la venta anterior enfrente del cliente. Ahora lo ignora y sigue."
   ],
-  "tamano": 47904085,
-  "sha256": "2b5b4bdc737fda7a19e296126cb9f9ef59fb77ef10a200b6ac0f40fc3640b600",
-  "url": "https://github.com/robertrojas09/rewords/releases/download/v7.9/Rewords_7.9.rwup"
+  "tamano": 47906681,
+  "sha256": "5b3225fd9ff2bd796ebbf33ee6913d09d81297301ee9dd8cede6cdbc42f49b3a",
+  "url": "https://github.com/robertrojas09/rewords/releases/download/v7.10/Rewords_7.10.rwup"
 }
