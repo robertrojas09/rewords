@@ -1,18 +1,12 @@
 {
-  "version": "7.10",
+  "version": "7.11",
   "fecha": "5 de noviembre de 2026",
-  "titulo": "Que los números digan la verdad",
+  "titulo": "Las ventanas altas vuelven a bajar",
   "notas": [
-    "EL CORTE DEL DÍA NO DECÍA CUÁNTO EFECTIVO HABÍA EN EL CAJÓN. Cuando una venta se cobraba con dos formas de pago -tantito en efectivo y el resto con tarjeta- el corte la metía completa en un renglón que decía «mixto», sin separar cuánto fue de cada cosa. Una venta de $1,000 pagada con $400 en efectivo y $600 con tarjeta dejaba el papel diciendo «efectivo $500» cuando en el cajón había $900. Si tu cajero te ha salido sobrando dinero sin explicación, era esto. El corte por turno siempre estuvo bien: el que fallaba era el del día, que es el que se imprime y se engrapa al sobre.",
-    "LO QUE DEVOLVÍAS EN EFECTIVO NO SE RESTABA DEL DÍA. Desde la versión pasada una devolución puede regresar dinero en billetes. Ese dinero sale del cajón, pero el corte del día ni lo restaba ni lo decía: lo apuntaba junto con lo que quedó a favor, bajo una etiqueta que decía «a monedero». El cajero devolvía $200 y a la noche le faltaban $200 que nadie se llevó. Ahora el papel trae los dos renglones aparte y el efectivo del día ya con la resta hecha.",
-    "LO QUE VENDÍAS EN UNA MESA O EN UN APARTADO NO SE APUNTABA EN «TRABAJOS POR HACER». Solo lo del mostrador. Si cobraste un servicio en una mesa, o entregaste un apartado de un trabajo, se cobró y nadie se acordó de hacerlo. Revisa tus apartados entregados de estos meses: los que eran servicio no están en esa pantalla, y hay que meterlos a mano.",
-    "LA ROTACIÓN DE MESAS CONTABA VENTAS DE MOSTRADOR. El reporte que dice cuánto se queda ocupada una mesa estaba promediando también los minutos de los servicios vendidos en la caja. En un taller sin una sola mesa dada de alta llegaba a contestar «2 mesas, promedio 165 minutos». Si ese número nunca te cuadró con lo que ves, no eran tus mesas.",
-    "LA PANTALLA DE HISTORIAL YA NO SE TRAE TODAS TUS VENTAS DE UN JALÓN. Traía TODAS, desde la primera, cada vez que la abrías: con dos años de uso son trece megas en cada clic, y el programa se iba poniendo lento solo, sin que se pudiera decir desde cuándo. Ahora trae las 500 más recientes, te avisa cuando hay más y tiene un botón para traerlas. Para buscar una venta vieja, escribe el nombre del socio: eso no cambió.",
-    "UN APARTADO GUARDABA IVA AUNQUE LO TUVIERAS APAGADO. No salía impreso en ningún lado, así que no te costó nada; quedaba escrito en la base esperando a que alguien lo leyera. Ya no.",
-    "LA SESIÓN AHORA DICE SUS PROPIAS REGLAS. El programa escucha en toda la red del negocio, porque los meseros entran desde su teléfono. Hasta hoy, que una página ajena pudiera colarse usando la sesión de un mesero dependía de lo que ese teléfono trajera de fábrica. Ahora lo decide el programa y no el navegador.",
-    "LA PANTALLA QUE VE EL CLIENTE YA NO SE ATORA CON UN DATO MAL FORMADO. Si la caja le mandaba algo con la forma equivocada, la pantalla se quedaba enseñando la venta anterior enfrente del cliente. Ahora lo ignora y sigue."
+    "CON UN TEMA DE CRISTAL PUESTO, LAS VENTANAS ALTAS NO SE PODÍAN BAJAR. Apartar mercancía, editar un producto, cualquier ventana que saliera más alta que tu pantalla: se quedaba trabada. La rueda del ratón no hacía nada, no salía barra para deslizar, y lo que venía abajo -a veces el propio botón de Guardar- simplemente no existía. Lo peor es que no se veía como una falla: se veía como una ventana que termina ahí. Pasaba sólo con los tres temas de cristal, y sólo en pantallas chicas: una laptop de 14 pulgadas, o cualquier monitor con Windows puesto al 125%. Si alguna vez tuviste que cerrar una ventana y perder lo que llevabas escrito, era esto. Los temas planos nunca lo tuvieron.",
+    "LOS BOTONES DE ABAJO DEJABAN VER LO QUE PASABA POR DETRÁS. En los temas de cristal, la franja donde viven «Guardar» y «Cancelar» era casi transparente, así que el contenido de la ventana se leía ENCIMA de los botones: dos renglones de texto cruzados uno sobre otro. Parecía la pantalla rota. Ahora la franja tapa, y sigue viéndose de cristal."
   ],
-  "tamano": 47906681,
-  "sha256": "5b3225fd9ff2bd796ebbf33ee6913d09d81297301ee9dd8cede6cdbc42f49b3a",
-  "url": "https://github.com/robertrojas09/rewords/releases/download/v7.10/Rewords_7.10.rwup"
+  "tamano": 47906965,
+  "sha256": "c469564b60d0367399d90cbafb26525948cde63037a5594914316d373b5cd7e6",
+  "url": "https://github.com/robertrojas09/rewords/releases/download/v7.11/Rewords_7.11.rwup"
 }
