@@ -1,12 +1,12 @@
 {
-  "version": "7.11",
+  "version": "7.12",
   "fecha": "5 de noviembre de 2026",
-  "titulo": "Las ventanas altas vuelven a bajar",
+  "titulo": "El programa deja de pensarlo dos veces",
   "notas": [
-    "CON UN TEMA DE CRISTAL PUESTO, LAS VENTANAS ALTAS NO SE PODÍAN BAJAR. Apartar mercancía, editar un producto, cualquier ventana que saliera más alta que tu pantalla: se quedaba trabada. La rueda del ratón no hacía nada, no salía barra para deslizar, y lo que venía abajo -a veces el propio botón de Guardar- simplemente no existía. Lo peor es que no se veía como una falla: se veía como una ventana que termina ahí. Pasaba sólo con los tres temas de cristal, y sólo en pantallas chicas: una laptop de 14 pulgadas, o cualquier monitor con Windows puesto al 125%. Si alguna vez tuviste que cerrar una ventana y perder lo que llevabas escrito, era esto. Los temas planos nunca lo tuvieron.",
-    "LOS BOTONES DE ABAJO DEJABAN VER LO QUE PASABA POR DETRÁS. En los temas de cristal, la franja donde viven «Guardar» y «Cancelar» era casi transparente, así que el contenido de la ventana se leía ENCIMA de los botones: dos renglones de texto cruzados uno sobre otro. Parecía la pantalla rota. Ahora la franja tapa, y sigue viéndose de cristal."
+    "TODO EL PROGRAMA IBA LENTO PARA EL DUEÑO, Y SÓLO PARA ÉL. Cada vez que abrías una pantalla, el programa volvía a calcular tu contraseña desde cero para ver si todavía era la de fábrica. Ese cálculo es lento a propósito -así es como una contraseña aguanta a quien la quiera adivinar probando- y está bien hacerlo al entrar, una vez. Hacerlo en cada clic le pegaba un quinto de segundo a todo: abrir el catálogo, ver el inicio, cobrar, buscar un socio. Medido, era el 97% de lo que tardaba el programa en contestar. Tu cajero nunca lo sintió, porque sólo le pasaba a quien entra como «admin» o como «root», que eres tú. Ahora el programa se acuerda de la respuesta y sólo la vuelve a calcular el día que cambias la contraseña. Las mismas pantallas pasaron de 212 a 9 milisegundos: veinticuatro veces más rápido, sin tocar nada de la seguridad.",
+    "Y TRES REPORTES SE PONÍAN LENTOS SOLOS CON LOS AÑOS. «En qué días vendes más», «a qué horas vendes más» y «quién venía seguido y ya no» se traían TODAS tus ventas desde la primera y las contaban una por una. Con nueve ventas no se nota; con dos años de trabajo encima -unas setenta mil- el primero tardaba más de un segundo y el tercero casi dos. Lo peor es cómo se siente: el programa no se descompone un día, se va poniendo lento sin que nadie sepa desde cuándo. Ahora la cuenta la hace la base de datos, que es para lo que está. Los días de la semana pasaron de 1,156 a 82 milisegundos, catorce veces más rápido; quién bajó el ritmo, de 1,707 a 676. Los números que enseñan son exactamente los mismos: hay una prueba nueva que los vuelve a sacar a mano y los compara uno por uno."
   ],
-  "tamano": 47906965,
-  "sha256": "c469564b60d0367399d90cbafb26525948cde63037a5594914316d373b5cd7e6",
-  "url": "https://github.com/robertrojas09/rewords/releases/download/v7.11/Rewords_7.11.rwup"
+  "tamano": 47908091,
+  "sha256": "9a1827de105fef2cc332bf9c18b222356038baca6bfbe9f66232def5863d0bb1",
+  "url": "https://github.com/robertrojas09/rewords/releases/download/v7.12/Rewords_7.12.rwup"
 }
