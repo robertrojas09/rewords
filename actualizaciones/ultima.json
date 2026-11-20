@@ -1,12 +1,13 @@
 {
-  "version": "7.12",
-  "fecha": "5 de noviembre de 2026",
-  "titulo": "El programa deja de pensarlo dos veces",
+  "version": "7.13",
+  "fecha": "6 de noviembre de 2026",
+  "titulo": "Los años que se pagan, son los que duran",
   "notas": [
-    "TODO EL PROGRAMA IBA LENTO PARA EL DUEÑO, Y SÓLO PARA ÉL. Cada vez que abrías una pantalla, el programa volvía a calcular tu contraseña desde cero para ver si todavía era la de fábrica. Ese cálculo es lento a propósito -así es como una contraseña aguanta a quien la quiera adivinar probando- y está bien hacerlo al entrar, una vez. Hacerlo en cada clic le pegaba un quinto de segundo a todo: abrir el catálogo, ver el inicio, cobrar, buscar un socio. Medido, era el 97% de lo que tardaba el programa en contestar. Tu cajero nunca lo sintió, porque sólo le pasaba a quien entra como «admin» o como «root», que eres tú. Ahora el programa se acuerda de la respuesta y sólo la vuelve a calcular el día que cambias la contraseña. Las mismas pantallas pasaron de 212 a 9 milisegundos: veinticuatro veces más rápido, sin tocar nada de la seguridad.",
-    "Y TRES REPORTES SE PONÍAN LENTOS SOLOS CON LOS AÑOS. «En qué días vendes más», «a qué horas vendes más» y «quién venía seguido y ya no» se traían TODAS tus ventas desde la primera y las contaban una por una. Con nueve ventas no se nota; con dos años de trabajo encima -unas setenta mil- el primero tardaba más de un segundo y el tercero casi dos. Lo peor es cómo se siente: el programa no se descompone un día, se va poniendo lento sin que nadie sepa desde cuándo. Ahora la cuenta la hace la base de datos, que es para lo que está. Los días de la semana pasaron de 1,156 a 82 milisegundos, catorce veces más rápido; quién bajó el ritmo, de 1,707 a 676. Los números que enseñan son exactamente los mismos: hay una prueba nueva que los vuelve a sacar a mano y los compara uno por uno."
+    "UN SOLO CÓDIGO PARA LOS AÑOS QUE SE PAGUEN. Hasta ahora, al negocio que pagaba tres años había que darle TRES códigos, uno por año, y él tenía que guardarlos y teclearlos los tres. Ahora se le da uno solo y vale los tres años. Si ya tienes códigos sueltos entregados, siguen valiendo exactamente igual: cada uno da su año, y tres tecleados uno por uno vencen el mismo día que uno de tres años. No se rompe nada de lo ya vendido.",
+    "Y LA LICENCIA DE VARIOS AÑOS VENCÍA AL AÑO. El programa guardaba cuándo empezaba la licencia pero no cuántos años se habían pagado, así que la cuenta del vencimiento siempre sumaba uno. Un negocio que pagó tres años se habría quedado sin programa dos años antes de tiempo, con los códigos ya usados. No le alcanzó a pasar a nadie: se encontró midiendo, antes de que ninguna tienda pagara más de un año.",
+    "LOS AÑOS AHORA SE ENCADENAN, NO SE PISAN. Si renuevas antes de que se te venza, el año nuevo empieza donde termina el que tenías, no el día que tecleas el código. Antes perdías los días que te faltaban. Si ya se te había vencido, empieza hoy, que es lo justo."
   ],
-  "tamano": 47908091,
-  "sha256": "9a1827de105fef2cc332bf9c18b222356038baca6bfbe9f66232def5863d0bb1",
-  "url": "https://github.com/robertrojas09/rewords/releases/download/v7.12/Rewords_7.12.rwup"
+  "tamano": 47907696,
+  "sha256": "3c54b56f10cb21e10e25d6438941db95c66055905a351c3109993ead6ccb35f6",
+  "url": "https://github.com/robertrojas09/rewords/releases/download/v7.13/Rewords_7.13.rwup"
 }
